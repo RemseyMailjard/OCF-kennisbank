@@ -24,13 +24,13 @@ Gebruik deze mappen als uitgangspunt:
 
 - `business/` — commerciële onderwerpen, klanttypes, tarieven en proposities
 - `goals/` — strategische doelen, leerdoelen en werkweekvoorkeuren
-- `learning/` — technische notities, architectuurinzichten en trainingsonderwerpen
+- `learning/` — technische notities, architectuurinzichten en oplossingsonderwerpen
 - `decisions/` — beslisregels, keuzecriteria en belangrijke besluiten
 - `routines/` — weekplanning, projectvoorbereiding en reviewroutines
 - `personal/` — energie, waarden, reflectie en focusinzichten
 - `agents/` — prompts en agentinstructies voor AI-assistenten
 - `templates/` — herbruikbare notitietemplates voor projecten, klanten en oplossingen
-- `projects/` — project- of trainingsspecifieke context en evaluaties
+- `projects/` — project- of oplossingsspecifieke context en evaluaties
 
 ## Gebruik in een Rabobank projectcontext
 
@@ -66,7 +66,7 @@ Maak een bestand `learning/mcp-workshop-rabobank.md` met:
 
 ### Stap 3: noteer een projectevaluatie
 
-Maak een bestand `projects/rabobank-mcp-training-evaluation.md` waarin je:
+Maak een bestand `projects/rabobank-mcp-evaluation.md` waarin je:
 
 - beschrijft wat wel en niet werkte
 - benoemt welke tooling en toegang nodig was
