@@ -16,8 +16,8 @@ De aanbieder levert niet alleen uitvoering, maar combineert consultancy, technis
 
 # Beslisregels
 
-- Hanteer hogere tarieven voor maatwerk, AI, Azure, Power Platform en consultancy-intensieve opdrachten.
-- Gebruik lagere tarieven alleen bij strategische partners, meerdaagse trajecten of sterke vervolgkansen.
+- Hanteer hogere prijzen voor maatwerk, AI, Azure, Power Platform en consultancy-intensieve opdrachten.
+- Gebruik lagere prijzen alleen bij strategische partners, meerdaagse trajecten of sterke vervolgkansen.
 - Vermijd kortingen zonder wederkerigheid.
 - Maak zichtbaar wat inbegrepen is: intake, voorbereiding, materiaal, oefeningen en nazorg.
 

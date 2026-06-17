@@ -1,8 +1,8 @@
 ---
 type: Template
-title: Business client template
-description: Template om klantcontext en opdrachtinformatie vast te leggen.
-tags: [template, klanten, business]
+title: Opportunity template
+description: Template om context en opportunity-informatie vast te leggen.
+tags: [template, context, opportunity]
 timestamp: 2026-06-14T18:43:13Z
 ---
 

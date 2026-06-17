@@ -546,7 +546,7 @@ def _daily_briefing_context() -> dict:
 def _weekly_strategy_context() -> dict:
     files = [
         "goals/index.md",
-        "business/index.md",
+        "context/index.md",
         "decisions/index.md",
         "routines/vrijdag-strategiedag.md",
         "routines/weekplanning.md",

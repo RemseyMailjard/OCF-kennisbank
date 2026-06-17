@@ -77,7 +77,7 @@ Gebruik je OKF-bundel als spiegel bij beslissingen.
 Voorbeeldvragen:
 
 - Past deze opdracht bij mijn strategie?
-- Is deze context- en prijsstrategie logisch voor deze aanvraag?
+- Is deze contextstrategie logisch voor deze aanvraag?
 - Welke propositie past bij deze klant?
 - Welke oplossing moet ik standaardiseren?
 - Welke taken kosten energie en welke geven energie?
@@ -235,7 +235,7 @@ goals/ai-agents-expert-worden.md
 goals/ideale-werkweek.md
 personal/energie-focus.md
 personal/waarden.md
-business/ideale-klant.md
+context/ideal-opportunity.md
 decisions/welke-opdrachten-aannemen.md
 ```
 
@@ -417,8 +417,8 @@ Gebruik niet meteen de hele bundel. Begin met vijf bestanden:
 
 ```text
 1. goals/groeien-naar-een-sterker-trainingsmerk.md
-2. business/tarieven.md
-3. business/trainingsdomeinen.md
+2. context/pricing-strategy.md
+3. context/domeinen.md
 4. routines/weekplanning.md
 5. personal/energie-focus.md
 ```
@@ -468,7 +468,7 @@ Gebruik deze regels om het systeem licht en bruikbaar te houden:
 
 - [ ] `log.md` bijgewerkt
 - [ ] Nieuwe klantvragen verwerkt
-- [ ] Trainingen of proposities aangescherpt
+- [ ] Oplossingen of proposities aangescherpt
 - [ ] Beslissingen vastgelegd in `decisions/`
 - [ ] Energie/focus bijgewerkt
 - [ ] Drie acties voor volgende week gekozen

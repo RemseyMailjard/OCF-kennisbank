@@ -1,16 +1,16 @@
 ---
 type: Template
 title: Solution template
-description: Template voor het ontwerpen van een oplossing of workshop.
+description: Template voor het ontwerpen van een oplossing, workshop of projectconcept.
 tags: [template, oplossing, design]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
-# Trainingstitel
+# Oplossingstitel
 
 ## Positionering
 
-Korte uitleg waarom deze training relevant is.
+Korte uitleg waarom deze oplossing relevant is.
 
 ## Doelgroep
 

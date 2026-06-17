@@ -1,6 +1,6 @@
 # Personal Knowledge Bank — MCP server
 
-A small, runnable example for the MCP training. It exposes a folder of Markdown
+A small, runnable example for a Rabobank developer knowledge bank. It exposes a folder of Markdown
 notes (`personal-knowledge-bank/`) to an AI assistant through an HTTP MCP server
 built with [FastMCP](https://gofastmcp.com), managed with
 [uv](https://docs.astral.sh/uv/).
@@ -46,7 +46,7 @@ logs, inbox captures and template-based note creation:
 | Resource template | `knowledge://{path}` | Reads Markdown files as MCP resources. |
 | Prompt | `refinement_summary` | Surfaces the saved summary prompt. |
 | Prompt | `weekly_review` | Starts a weekly review workflow. |
-| Prompt | `training_design` | Starts a training design workflow. |
+| Prompt | `training_design` | Starts a solution design workflow. |
 | Prompt | `client_proposal` | Starts a client proposal workflow. |
 | Prompt | `assignment_intake` | Starts an assignment intake and fit workflow. |
 
