@@ -25,7 +25,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Kwartaalreflectie
 
-- Ben ik dichter bij mijn Skills4-IT-groeidoel gekomen?
+- Ben ik dichter bij mijn groeidoel gekomen?
 - Ben ik zichtbaarder geworden als AI/automation expert?
 - Is mijn werkweek gezonder ingericht?
 - Welke beslissingen moet ik expliciet maken?

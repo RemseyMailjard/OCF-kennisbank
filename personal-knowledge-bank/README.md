@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: Hoe gebruik je Remsey OS?
-description: Praktische handleiding voor het gebruiken en uitbreiden van deze OKF-bundel.
-tags: [okf, handleiding, personal-knowledge-management]
+title: Hoe gebruik je deze OKF-kennisbundel?
+description: Praktische handleiding voor het gebruiken en uitbreiden van deze OKF-kennisbundel.
+tags: [okf, handleiding, kennisbank, personal-knowledge-management]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
-# Hoe gebruik je Remsey OS?
+# Hoe gebruik je deze OKF-kennisbundel?
 
 Deze map is jouw persoonlijke kennisbasis. Elk `.md`-bestand beschrijft één concept: een doel, routine, beslissing, training, strategie of prompt.
 

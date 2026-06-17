@@ -1,7 +1,7 @@
 ---
 type: Ideal Customer Profile
 title: Ideale klant
-description: Criteria voor klanten en opdrachten die passen bij Remsey's expertise, energie en groeistrategie.
+description: Criteria voor klanten en opdrachten die passen bij expertise, energie en groeistrategie.
 tags: [klanten, strategie, sales]
 timestamp: 2026-06-14T18:43:13Z
 ---

@@ -1,7 +1,7 @@
 ---
 type: Business Capability Map
 title: Trainingsdomeinen
-description: Kennisdomeinen waarvoor opdrachtgevers Remsey en Skills4-IT kunnen inzetten.
+description: Kennisdomeinen waarvoor opdrachtgevers een trainer kunnen inzetten.
 tags: [trainingen, positionering, microsoft, ai]
 timestamp: 2026-06-14T18:43:13Z
 ---
@@ -19,7 +19,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Positionering richting IT-opleiders
 
-Remsey is inzetbaar als senior trainer voor technische én adoptiegerichte programma’s. De kracht zit in de combinatie van didactiek, praktijkervaring, Microsoft-technologie en AI-automatisering.
+Een trainer is inzetbaar als senior begeleider voor technische én adoptiegerichte programma’s. De kracht zit in de combinatie van didactiek, praktijkervaring, Microsoft-technologie en AI-automatisering.
 
 # Tone of voice
 

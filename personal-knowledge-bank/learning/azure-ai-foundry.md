@@ -23,7 +23,7 @@ Azure AI Foundry kunnen uitleggen, demonstreren en toepassen in trainingen en co
 # Demo-ideeën
 
 - Bouw een AI-assistent die een trainingsoutline maakt.
-- Bouw een RAG-demo op basis van Skills4-IT trainingsmateriaal.
+- Bouw een RAG-demo op basis van trainingsmateriaal.
 - Laat deelnemers prompts testen en evalueren op betrouwbaarheid.
 
 # Links

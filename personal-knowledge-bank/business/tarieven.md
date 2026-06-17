@@ -2,13 +2,13 @@
 type: Commercial Policy
 title: Tarieven en commerciële uitgangspunten
 description: Richtlijnen voor dagtarief, dagdelen, reiskosten, maatwerk en prijspositionering — inclusief werkelijke tarieven per opdrachtgever.
-tags: [tarieven, offertes, business, skills4-it, opdrachtgevers]
+tags: [tarieven, offertes, business, opdrachtgevers]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
 # Uitgangspunt
 
-Remsey positioneert zich als senior IT-trainer, consultant en ontwikkelaar met expertise in Microsoft 365, Azure, Power Platform, AI en Development.
+De trainer positioneert zich als senior IT-trainer, consultant en ontwikkelaar met expertise in Microsoft 365, Azure, Power Platform, AI en Development.
 
 # Richttarieven
 

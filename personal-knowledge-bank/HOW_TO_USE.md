@@ -1,14 +1,14 @@
 ---
 type: Guide
-title: How to use Remsey OS OKF
-description: Praktische handleiding om de Remsey OS OKF-bundel dagelijks te gebruiken voor werk, leven, strategie en AI-ondersteuning.
-tags: [okf, handleiding, remsey-os, ai, productiviteit, strategie]
+title: How to use this OKF knowledge bundle
+description: Praktische handleiding om deze OKF-kennisbundel dagelijks te gebruiken voor werk, training, strategie en AI-ondersteuning.
+tags: [okf, handleiding, kennisbank, ai, productiviteit, strategie]
 timestamp: 2026-06-14T00:00:00+02:00
 ---
 
-# How to use Remsey OS OKF
+# How to use this OKF knowledge bundle
 
-Deze handleiding helpt je om de **Remsey OS OKF-bundel** praktisch te gebruiken in je dagelijkse werk en leven.
+Deze handleiding helpt je om **deze OKF-kennisbundel** praktisch te gebruiken in je dagelijkse werk en leven.
 
 Zie de bundel niet als “een map met documenten”, maar als jouw **persoonlijke besturingssysteem** voor keuzes, werk, training, strategie, reflectie en AI-ondersteuning.
 
@@ -18,7 +18,7 @@ OKF werkt goed omdat het simpel blijft: Markdown-bestanden met YAML-frontmatter.
 
 ## 1. De kern: Capture, Curate, Consult, Create
 
-Gebruik je Remsey OS met deze eenvoudige cyclus:
+Gebruik je OKF-kennisbundel met deze eenvoudige cyclus:
 
 ```text
 1. Capture  → snel vastleggen
@@ -230,7 +230,7 @@ Je OKF-bundel helpt je om minder reactief en meer strategisch te kiezen.
 Gebruik hiervoor vooral:
 
 ```text
-goals/skills4-it-groeien.md
+goals/groeien-naar-een-sterker-trainingsmerk.md
 goals/ai-agents-expert-worden.md
 goals/ideale-werkweek.md
 personal/energie-focus.md
@@ -406,7 +406,7 @@ Werk `log.md` bij:
 Vraag ChatGPT:
 
 ```text
-Lees mijn weeklog en geef 3 acties voor mijn strategie, gezondheid en Skills4-IT groei.
+Lees mijn weeklog en geef 3 acties voor strategie, gezondheid en groei.
 ```
 
 ---
@@ -416,7 +416,7 @@ Lees mijn weeklog en geef 3 acties voor mijn strategie, gezondheid en Skills4-IT
 Gebruik niet meteen de hele bundel. Begin met vijf bestanden:
 
 ```text
-1. goals/skills4-it-groeien.md
+1. goals/groeien-naar-een-sterker-trainingsmerk.md
 2. business/tarieven.md
 3. business/trainingsdomeinen.md
 4. routines/weekplanning.md
@@ -478,7 +478,7 @@ Gebruik deze regels om het systeem licht en bruikbaar te houden:
 
 ## 14. Belangrijkste gedachte
 
-Je Remsey OS OKF-bundel is geen documentatie om documentatie te maken.
+Je OKF-kennisbundel is geen documentatie om documentatie te maken.
 
 Het is bedoeld om:
 
@@ -486,7 +486,7 @@ Het is bedoeld om:
 - betere keuzes te maken;
 - je kennis herbruikbaar te maken;
 - AI veel beter voor jou te laten werken;
-- Skills4-IT strategischer te laten groeien;
+- strategischer te groeien;
 - meer grip te krijgen op energie, focus en richting.
 
 Begin klein, gebruik het vaak, en laat het systeem groeien met je werk en leven.

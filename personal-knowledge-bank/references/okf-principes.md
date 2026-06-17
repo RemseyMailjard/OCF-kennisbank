@@ -1,7 +1,7 @@
 ---
 type: Reference
 title: OKF principes
-description: Samenvatting van de belangrijkste OKF-principes toegepast op Remsey OS.
+description: Samenvatting van de belangrijkste OKF-principes voor een generieke OKF-kennisbundel.
 tags: [okf, reference, kennisbeheer]
 timestamp: 2026-06-14T18:43:13Z
 ---

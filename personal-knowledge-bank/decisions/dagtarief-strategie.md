@@ -12,7 +12,7 @@ Het standaard dagtarief wordt gebruikt als anker voor kwaliteit, senioriteit en 
 
 # Context
 
-Remsey levert niet alleen uitvoering, maar combineert training, consultancy, didactiek, technische expertise en praktijkcases.
+De trainer levert niet alleen uitvoering, maar combineert training, consultancy, didactiek, technische expertise en praktijkcases.
 
 # Beslisregels
 

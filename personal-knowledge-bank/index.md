@@ -1,13 +1,13 @@
 ---
 okf_version: "0.1"
-title: Remsey OS — persoonlijke OKF-bundel
-description: Persoonlijke kennisbasis voor leven, werk, strategie, trainingen, routines en AI-agenten.
+title: OKF kennisbundel
+description: Een generieke persoonlijke kennisbundel voor werk, training, strategie, routines en AI-agenten.
 timestamp: 2026-06-14T18:43:13Z
 ---
 
-# Remsey OS — OKF-bundel
+# OKF kennisbundel
 
-Deze bundel is bedoeld als jouw persoonlijke en zakelijke kennisbesturingssysteem: leesbaar voor jou, bruikbaar voor AI-agenten en makkelijk te beheren in Git of een gewone mapstructuur.
+Deze bundel is bedoeld als een persoonlijke en zakelijke kennisbesturingssysteem: leesbaar voor jou, bruikbaar voor AI-agenten en makkelijk te beheren in Git of een gewone mapstructuur.
 
 # Startpunten
 
