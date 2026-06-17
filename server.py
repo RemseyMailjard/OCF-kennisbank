@@ -436,22 +436,22 @@ def _validate_index_coverage() -> dict:
 def _context_bundle(kind: Literal["assignment", "pricing", "client_fit"]) -> dict:
     bundles = {
         "assignment": [
-            "business/ideale-klant.md",
-            "business/tarieven.md",
+            "context/ideal-opportunity.md",
+            "context/pricing-strategy.md",
             "decisions/welke-opdrachten-aannemen.md",
             "decisions/dagtarief-strategie.md",
             "goals/ideale-werkweek.md",
         ],
         "pricing": [
-            "business/tarieven.md",
-            "business/standaard-offerte-argumentatie.md",
+            "context/pricing-strategy.md",
+            "context/proposal-arguments.md",
             "decisions/dagtarief-strategie.md",
-            "business/proposities.md",
+            "context/proposities.md",
         ],
         "client_fit": [
-            "business/ideale-klant.md",
-            "business/opdrachtgevers.md",
-            "business/proposities.md",
+            "context/ideal-opportunity.md",
+            "context/stakeholders.md",
+            "context/proposities.md",
             "decisions/welke-opdrachten-aannemen.md",
         ],
     }
@@ -463,11 +463,11 @@ def _context_bundle(kind: Literal["assignment", "pricing", "client_fit"]) -> dic
 
 def _training_context(topic: str = "") -> dict:
     files = [
-        "templates/training-template.md",
-        "routines/trainingsvoorbereiding.md",
-        "business/trainingsdomeinen.md",
-        "business/proposities.md",
-        "business/ideale-klant.md",
+        "templates/solution-template.md",
+        "routines/projectvoorbereiding.md",
+        "context/domeinen.md",
+        "context/proposities.md",
+        "context/ideal-opportunity.md",
     ]
     matching_notes = _search(topic)[:10] if topic.strip() else _search_metadata(folder="learning", limit=10)
     return {
@@ -483,8 +483,8 @@ def _goal_alignment_context(proposal: str = "") -> dict:
         "goals/ai-agents-expert-worden.md",
         "goals/gezondheid-en-rust.md",
         "goals/ideale-werkweek.md",
-        "business/ideale-klant.md",
-        "business/tarieven.md",
+        "context/ideal-opportunity.md",
+        "context/pricing-strategy.md",
         "decisions/welke-opdrachten-aannemen.md",
         "personal/energie-focus.md",
         "routines/weekplanning.md",
@@ -648,12 +648,12 @@ def _create_note_from_template(
 
 def _create_training_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
     target = target_path or f"learning/{_slugify(topic)}.md"
-    return _create_note_from_template("training-template", target, topic, overwrite)
+    return _create_note_from_template("solution-template", target, topic, overwrite)
 
 
 def _create_client_note(client_name: str, target_path: str = "", overwrite: bool = False) -> dict:
-    target = target_path or f"business/clients/{_slugify(client_name)}.md"
-    return _create_note_from_template("business-client-template", target, client_name, overwrite)
+    target = target_path or f"context/clients/{_slugify(client_name)}.md"
+    return _create_note_from_template("context-opportunity-template", target, client_name, overwrite)
 
 
 def _create_decision_note(decision_title: str, target_path: str = "", overwrite: bool = False) -> dict:
@@ -1000,7 +1000,7 @@ def preview_note_from_template(template: str, title: str, target_path: str = "")
     annotations=_write_tool_annotations("Create Training Note"),
 )
 def create_training_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
-    """Create a training design note from the training template."""
+    """Create a solution design note from the solution template."""
     return _create_training_note(topic, target_path, overwrite)
 
 
@@ -1056,12 +1056,12 @@ def weekly_review() -> str:
 
 @mcp.prompt
 def training_design(topic: str = "") -> str:
-    """Design a training using the training template and learning/business context."""
+    """Design a solution using the solution template and learning/context notes."""
     topic_line = f" for {topic}" if topic else ""
     return (
-        f"Design a practical training{topic_line}. Use templates/training-template.md, "
-        "business/trainingsdomeinen.md, business/proposities.md and relevant learning notes. "
-        "Return a clear outline with audience, learning goals, modules, demos, exercises and evaluation."
+        f"Design a practical solution or workshop{topic_line}. Use templates/solution-template.md, "
+        "context/domeinen.md, context/proposities.md and relevant learning notes. "
+        "Return a clear outline with audience, goals, modules, demos, exercises and evaluation."
     )
 
 
@@ -1069,8 +1069,8 @@ def training_design(topic: str = "") -> str:
 def client_proposal(client_context: str = "") -> str:
     """Draft a client proposal using business, pricing and proposition notes."""
     return (
-        "Draft a warm, professional client proposal using business/tarieven.md, "
-        "business/proposities.md, business/standaard-offerte-argumentatie.md and relevant templates. "
+        "Draft a warm, professional client proposal using context/pricing-strategy.md, "
+        "context/proposities.md, context/proposal-arguments.md and relevant templates. "
         f"Client context: {client_context}"
     )
 

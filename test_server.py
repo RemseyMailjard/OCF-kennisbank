@@ -39,13 +39,13 @@ def test_lists_frontmatter_tags_and_types():
 
 def test_search_metadata_filters_by_tag_and_folder():
     hits = server._search_metadata(tag="training", folder="templates")
-    assert any(hit["file"] == "templates/training-template.md" for hit in hits)
+    assert any(hit["file"] == "templates/solution-template.md" for hit in hits)
 
 
 def test_knowledge_map_groups_files_by_folder():
     knowledge_map = server._knowledge_map()
-    assert "business" in knowledge_map
-    assert any(item["file"] == "business/tarieven.md" for item in knowledge_map["business"])
+    assert "context" in knowledge_map
+    assert any(item["file"] == "context/pricing-strategy.md" for item in knowledge_map["context"])
 
 
 def test_validation_reports_current_bank_status():
@@ -63,21 +63,21 @@ def test_frontmatter_parser_supports_yaml_timestamps():
 def test_context_bundle_includes_assignment_decision_notes():
     bundle = server._context_bundle("assignment")
     files = [item["file"] for item in bundle["files"]]
-    assert "business/ideale-klant.md" in files
+    assert "context/ideal-opportunity.md" in files
     assert "decisions/welke-opdrachten-aannemen.md" in files
 
 
 def test_link_graph_finds_outgoing_links_and_backlinks():
-    outgoing = server._list_outgoing_links("business/tarieven.md")
+    outgoing = server._list_outgoing_links("context/pricing-strategy.md")
     assert any(link["target"] == "decisions/dagtarief-strategie.md" for link in outgoing)
 
-    backlinks = server._find_backlinks("business/tarieven.md")
+    backlinks = server._find_backlinks("context/pricing-strategy.md")
     assert any(backlink["source"] == "goals/skills4-it-groeien.md" for backlink in backlinks)
 
 
 def test_related_notes_include_link_or_tag_reasons():
-    related = server._find_related_notes("business/tarieven.md")
-    assert related["file"] == "business/tarieven.md"
+    related = server._find_related_notes("context/pricing-strategy.md")
+    assert related["file"] == "context/pricing-strategy.md"
     assert any(item["reasons"] for item in related["related"])
 
 
@@ -131,23 +131,23 @@ def test_find_placeholder_text_reports_unfinished_lines(tmp_path, monkeypatch):
 
 
 def test_validate_index_coverage_finds_missing_links(tmp_path, monkeypatch):
-    folder = tmp_path / "business"
+    folder = tmp_path / "context"
     folder.mkdir()
-    (folder / "index.md").write_text("# Business\n", encoding="utf-8")
-    (folder / "tarieven.md").write_text("# Tarieven\n", encoding="utf-8")
+    (folder / "index.md").write_text("# Context\n", encoding="utf-8")
+    (folder / "pricing-strategy.md").write_text("# Pricing strategy\n", encoding="utf-8")
     monkeypatch.setattr(server, "KB_ROOT", tmp_path.resolve())
 
     result = server._validate_index_coverage()
 
     assert result["valid"] is False
-    assert result["errors"] == ["business/index.md: missing link to business/tarieven.md"]
+    assert result["errors"] == ["context/index.md: missing link to context/pricing-strategy.md"]
 
 
 def test_validate_index_coverage_accepts_linked_notes(tmp_path, monkeypatch):
-    folder = tmp_path / "business"
+    folder = tmp_path / "context"
     folder.mkdir()
-    (folder / "index.md").write_text("# Business\n\n- [Tarieven](tarieven.md)\n", encoding="utf-8")
-    (folder / "tarieven.md").write_text("# Tarieven\n", encoding="utf-8")
+    (folder / "index.md").write_text("# Context\n\n- [Pricing strategy](pricing-strategy.md)\n", encoding="utf-8")
+    (folder / "pricing-strategy.md").write_text("# Pricing strategy\n", encoding="utf-8")
     monkeypatch.setattr(server, "KB_ROOT", tmp_path.resolve())
 
     result = server._validate_index_coverage()
@@ -159,9 +159,9 @@ def test_validate_index_coverage_accepts_linked_notes(tmp_path, monkeypatch):
 def test_training_context_includes_training_materials():
     context = server._training_context("Power Automate")
     files = [item["file"] for item in context["files"]]
-    assert "templates/training-template.md" in files
-    assert "routines/trainingsvoorbereiding.md" in files
-    assert "business/trainingsdomeinen.md" in files
+    assert "templates/solution-template.md" in files
+    assert "routines/projectvoorbereiding.md" in files
+    assert "context/domeinen.md" in files
 
 
 def test_capture_inbox_note_creates_frontmatter_safe_inbox(tmp_path, monkeypatch):
@@ -179,22 +179,22 @@ def test_capture_inbox_note_creates_frontmatter_safe_inbox(tmp_path, monkeypatch
 def test_template_listing_and_preview_do_not_write(tmp_path, monkeypatch):
     templates = tmp_path / "templates"
     templates.mkdir()
-    (templates / "training-template.md").write_text(
-        "---\ntype: Template\ntitle: Training template\ndescription: Demo\ntags: [template]\ntimestamp: 2026-06-17T00:00:00Z\n---\n\n# Old title\n\nBody",
+    (templates / "solution-template.md").write_text(
+        "---\ntype: Template\ntitle: Solution template\ndescription: Demo\ntags: [template]\ntimestamp: 2026-06-17T00:00:00Z\n---\n\n# Old title\n\nBody",
         encoding="utf-8",
     )
     monkeypatch.setattr(server, "KB_ROOT", tmp_path.resolve())
 
     templates_list = server._list_templates()
     preview = server._preview_note_from_template(
-        "training-template",
-        "Previewed Training",
-        "learning/previewed-training.md",
+        "solution-template",
+        "Previewed Solution",
+        "learning/previewed-solution.md",
     )
 
-    assert templates_list[0]["file"] == "templates/training-template.md"
-    assert preview["content"].count("# Previewed Training") == 1
-    assert not (tmp_path / "learning" / "previewed-training.md").exists()
+    assert templates_list[0]["file"] == "templates/solution-template.md"
+    assert preview["content"].count("# Previewed Solution") == 1
+    assert not (tmp_path / "learning" / "previewed-solution.md").exists()
 
 
 def test_append_to_log_writes_only_log_file(tmp_path, monkeypatch):
@@ -238,8 +238,8 @@ def test_create_note_from_template_refuses_path_traversal(tmp_path, monkeypatch)
 def test_specific_create_helpers_choose_safe_default_paths(tmp_path, monkeypatch):
     templates = tmp_path / "templates"
     templates.mkdir()
-    (templates / "training-template.md").write_text("# Old title\n", encoding="utf-8")
-    (templates / "business-client-template.md").write_text("# Old title\n", encoding="utf-8")
+    (templates / "solution-template.md").write_text("# Old title\n", encoding="utf-8")
+    (templates / "context-opportunity-template.md").write_text("# Old title\n", encoding="utf-8")
     (templates / "concept-template.md").write_text("# Old title\n", encoding="utf-8")
     monkeypatch.setattr(server, "KB_ROOT", tmp_path.resolve())
 
@@ -248,5 +248,5 @@ def test_specific_create_helpers_choose_safe_default_paths(tmp_path, monkeypatch
     decision = server._create_decision_note("Accept Managed Services")
 
     assert training["file"] == "learning/power-automate-basics.md"
-    assert client["file"] == "business/clients/contoso-bank.md"
+    assert client["file"] == "context/clients/contoso-bank.md"
     assert decision["file"] == "decisions/accept-managed-services.md"
