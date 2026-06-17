@@ -28,6 +28,6 @@ Organisaties helpen repetitieve taken te automatiseren met Power Automate als pr
 | SharePoint | Opslag, lijsten en procesdata |
 | Power BI | Rapportage en monitoring |
 
-# Trainingsboodschap
+# Kernboodschap
 
 Deelnemers hoeven geen programmeur te worden, maar leren automatiseringsdenken: trigger, input, verwerking, output en controle.

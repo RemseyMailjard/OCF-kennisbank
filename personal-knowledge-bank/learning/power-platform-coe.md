@@ -8,7 +8,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Leerdoel
 
-Een praktische training kunnen verzorgen over Power Platform CoE voor IT-beheerders, makers en ontwikkelaars.
+Een praktische oplossing kunnen verzorgen over Power Platform CoE voor IT-beheerders, makers en ontwikkelaars.
 
 # Onderwerpen
 
@@ -20,9 +20,9 @@ Een praktische training kunnen verzorgen over Power Platform CoE voor IT-beheerd
 - Maker enablement
 - Governance zonder innovatie te blokkeren
 
-# Trainingsaanpak
+# Aanpak
 
-Begin met herkenbare risico’s: wildgroei, onduidelijke eigenaarschap, datalekken, dubbele apps. Bouw daarna op naar beleid, tooling en praktische beheerprocessen.
+Begin met herkenbare risico’s: wildgroei, onduidelijk eigenaarschap, datalekken, dubbele apps. Bouw daarna op naar beleid, tooling en praktische beheerprocessen.
 
 # Praktijkcase
 

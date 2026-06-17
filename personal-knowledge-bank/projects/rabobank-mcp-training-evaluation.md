@@ -20,11 +20,11 @@ The training content is working and participants are clearly interested in MCP c
 - This impacts the flow and reduces the ability to deliver the full hands-on experience.
 - A fallback mock-up version of the internal MCP server was created to simulate Pavel’s internal setup.
 
-## Trainer observations
+## Observations
 
 - Today I was better able to manage frustration and keep the session moving, but unstable access still made it difficult to deliver the full practical experience.
-- When access is blocked or unstable, the perceived value of the training decreases even though the MCP use case is interesting.
-- With only one internal MCP server available and many participants unable to use it reliably, it is understandable that some are hesitant to recommend the training right now.
+- When access is blocked or unstable, the perceived value of the experience decreases even though the MCP use case is interesting.
+- With only one internal MCP server available and many participants unable to use it reliably, it is understandable that some are hesitant to recommend this approach right now.
 
 ## Recommendation
 
@@ -42,4 +42,4 @@ This would:
 
 ## Conclusion
 
-The MCP training concept is valid and interesting, but its success depends on stable access and a dependable hands-on environment. With the right lab setup, the training can deliver much more value and avoid the current access-related disruption.
+The MCP concept is valid and interesting, but its success depends on stable access and a dependable hands-on environment. With the right lab setup, the environment can deliver much more value and avoid the current access-related disruption.

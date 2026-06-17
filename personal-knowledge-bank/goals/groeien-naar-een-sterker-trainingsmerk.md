@@ -12,11 +12,11 @@ Een ontwikkelpraktijk laten groeien van een individuele dienstverlening naar een
 
 # Waarom dit belangrijk is
 
-Meer schaalbaarheid betekent minder afhankelijkheid van alleen eigen trainingsdagen en meer ruimte voor productontwikkeling, trainersnetwerk, marketing en strategische proposities.
+Meer schaalbaarheid betekent minder afhankelijkheid van alleen eigen inzetdagen en meer ruimte voor productontwikkeling, externe samenwerking, marketing en strategische proposities.
 
 # Richting
 
-- Ontwikkel vaste trainingsproducten rond AI, Microsoft 365, Azure, Power Platform, Development en Data & BI.
+- Ontwikkel vaste producten of oplossingen rond AI, Microsoft 365, Azure, Power Platform, Development en Data & BI.
 - Bouw een netwerk van collega’s die volgens consistente kwaliteitsnormen kunnen leveren.
 - Positioneer de ontwikkelpraktijk als praktijkgericht en technologisch relevant.
 - Gebruik vrijdag voor strategie, productontwikkeling en commerciële opvolging.
@@ -26,8 +26,8 @@ Meer schaalbaarheid betekent minder afhankelijkheid van alleen eigen trainingsda
 | KPI | Betekenis |
 |---|---|
 | Aantal eigen directe klanten | Minder afhankelijkheid van tussenpartijen |
-| Aantal standaardtrainingen | Herbruikbaarheid en schaalbaarheid |
-| Aantal trainers in netwerk | Groeicapaciteit |
+| Aantal standaardoplossingen | Herbruikbaarheid en schaalbaarheid |
+| Aantal samenwerkingspartners in netwerk | Groeicapaciteit |
 | Omzet per domein | Inzicht in focusgebieden |
 | Marge per opdracht | Gezonde groei |
 

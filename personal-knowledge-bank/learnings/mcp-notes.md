@@ -1,7 +1,7 @@
 ---
 type: learning-note
 title: MCP Learning Notes
-description: Notes about what I learned during the MCP training
+description: Notes about what I learned during the MCP work and evaluation
 tags: [mcp, learning, ai-agents]
 timestamp: 2026-06-17T00:00:00Z
 ---

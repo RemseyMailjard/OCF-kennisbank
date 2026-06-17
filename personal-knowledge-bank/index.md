@@ -1,7 +1,7 @@
 ---
 okf_version: "0.1"
 title: OKF kennisbundel
-description: Een generieke persoonlijke kennisbundel voor werk, training, strategie, routines en AI-agenten.
+description: Een generieke persoonlijke kennisbundel voor werk, oplossingen, strategie, routines en AI-agenten.
 timestamp: 2026-06-14T18:43:13Z
 ---
 
@@ -12,10 +12,10 @@ Deze bundel is bedoeld als een persoonlijke en zakelijke kennisbesturingssysteem
 # Startpunten
 
 * [Doelen](goals/) - strategische en persoonlijke doelen.
-* [Business](business/) - tarieven, trainingsdomeinen, proposities en opdrachtgevers.
+* [Business](business/) - tarieven, domeinen, proposities en opdrachtgevers.
 * [Learning](learning/) - leerpaden en expertiseontwikkeling.
 * [Decisions](decisions/) - belangrijke beslissingen en beslisregels.
-* [Routines](routines/) - weekritme, trainingsvoorbereiding en strategiedagen.
+* [Routines](routines/) - weekritme, projectvoorbereiding en strategiedagen.
 * [Personal](personal/) - energie, waarden, reflectie en persoonlijke koers.
 * [Agents](agents/) - instructies en prompts voor AI-agenten.
 * [Templates](templates/) - herbruikbare Markdown-templates.

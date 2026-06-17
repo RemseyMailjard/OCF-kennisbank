@@ -1,5 +1,5 @@
 ---
-type: Training Example
+type: Solution Example
 title: Rabobank developer knowledge bank example
 description: Voorbeeld van hoe Rabobank-ontwikkelaars een eigen OKF-kennisbank kunnen bouwen voor projecten, kennisdeling en interne tooling.
 tags: [rabobank, knowledge-bank, example, internal]
@@ -76,7 +76,7 @@ Maak een bestand `projects/rabobank-mcp-evaluation.md` waarin je:
 
 Laat de ontwikkelaar `assistant-instructions.md` en één of twee relevante bestanden gebruiken als context voor een prompt die:
 
-- een trainingsplan maakt
+- een oplossingsplan maakt
 - een korte samenvatting schrijft
 - een voorstel of e-mail opstelt
 
@@ -90,9 +90,9 @@ Laat de ontwikkelaar `assistant-instructions.md` en één of twee relevante best
 
 ## Waarom dit werkt
 
-Een persoonlijke kennisbank maakt kennis herbruikbaar, helpt bij training en projectwork, en zorgt dat AI-tools zoals Copilot of ChatGPT beter aansluiten op de eigen context. Voor Rabobank-ontwikkelaars is het vooral handig omdat de kennisbank:
+Een persoonlijke kennisbank maakt kennis herbruikbaar, helpt bij project- en oplossingswork, en zorgt dat AI-tools zoals Copilot of ChatGPT beter aansluiten op de eigen context. Voor Rabobank-ontwikkelaars is het vooral handig omdat de kennisbank:
 
 - lokaal kan draaien
 - veilig als Markdown wordt opgeslagen
 - overzichtelijk is voor het team
-- direct bruikbaar is voor hands-on training en agentontwikkeling
+- direct bruikbaar is voor hands-on projecten en agentontwikkeling

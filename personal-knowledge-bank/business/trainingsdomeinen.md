@@ -1,6 +1,6 @@
 ---
 type: Business Capability Map
-title: Trainingsdomeinen
+title: Domeinen
 description: Kennisdomeinen waarvoor opdrachtgevers expertise kunnen inzetten.
 tags: [domeinen, positionering, microsoft, ai]
 timestamp: 2026-06-14T18:43:13Z

@@ -20,7 +20,7 @@ OKF staat voor een eenvoudige manier om kennis vast te leggen als een map met Ma
 
 # Toepassing in deze bundel
 
-Elk bestand beschrijft één concept, zoals een doel, routine, strategie, klanttype, training of prompt. De frontmatter maakt het concept vindbaar en filterbaar. De Markdown-body bevat de echte inhoud.
+Elk bestand beschrijft één concept, zoals een doel, routine, strategie, klanttype, oplossing of prompt. De frontmatter maakt het concept vindbaar en filterbaar. De Markdown-body bevat de echte inhoud.
 
 # Minimale regel
 

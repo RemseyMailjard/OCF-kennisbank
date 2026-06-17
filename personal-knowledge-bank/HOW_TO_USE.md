@@ -33,12 +33,12 @@ Leg ideeën, klantvragen, inzichten en beslissingen direct vast zonder ze meteen
 
 Voorbeelden:
 
-- Een nieuwe trainingsvraag
+- Een nieuwe ontwikkelvraag
 - Een prijsafspraak
-- Een lesidee
+- Een oplossing of conceptidee
 - Een inzicht over energie of focus
 - Een strategische keuze
-- Een veelgestelde vraag uit een training
+- Een veelgestelde vraag uit een project
 
 ### Curate — ordenen en aanscherpen
 
@@ -79,7 +79,7 @@ Voorbeeldvragen:
 - Past deze opdracht bij mijn strategie?
 - Is dit tarief logisch voor deze aanvraag?
 - Welke propositie past bij deze klant?
-- Welke training moet ik standaardiseren?
+- Welke oplossing moet ik standaardiseren?
 - Welke taken kosten energie en welke geven energie?
 
 ### Create — output maken
@@ -89,10 +89,10 @@ Gebruik je OKF-kennis als input voor ChatGPT, Copilot of andere AI-tools.
 Voorbeelden:
 
 - Offertes maken
-- Trainingsoutlines schrijven
+- Oplossingsoutlines schrijven
 - E-mails verbeteren
 - Social posts maken
-- Lesmateriaal ontwikkelen
+- Content ontwikkelen
 - Strategie reflecteren
 - Klantvoorstellen personaliseren
 
@@ -135,7 +135,7 @@ Vraag daarna aan ChatGPT bijvoorbeeld:
 
 ```text
 Gebruik mijn OKF-kennis over tarieven, trainingsdomeinen en stijl.
-Maak een voorstel voor een 1-daagse training Power Automate en AI-automatisering voor een opdrachtgever.
+Maak een voorstel voor een 1-daagse oplossing of workshop rond Power Automate en AI-automatisering voor een opdrachtgever.
 Gebruik een warme, professionele en duidelijke toon.
 ```
 
@@ -219,7 +219,7 @@ Na elk project of elke sessie vul je vooral dit onderdeel aan:
 - Welke praktijkcase moet ik hergebruiken?
 ```
 
-Zo bouw je stap voor stap je eigen trainingsbibliotheek op.
+Zo bouw je stap voor stap je eigen oplossingsbibliotheek op.
 
 ---
 

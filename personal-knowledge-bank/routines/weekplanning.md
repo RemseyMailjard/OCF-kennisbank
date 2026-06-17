@@ -1,7 +1,7 @@
 ---
 type: Routine
 title: Weekplanning
-description: Praktisch weekritme voor training, ontwikkeling, administratie en strategie.
+description: Praktisch weekritme voor projecten, ontwikkeling, administratie en strategie.
 tags: [routine, planning, focus]
 timestamp: 2026-06-14T18:43:13Z
 ---
@@ -11,9 +11,9 @@ timestamp: 2026-06-14T18:43:13Z
 | Dag | Primair doel | Voorbeelden |
 |---|---|---|
 | Maandag | Bouwen en voorbereiden | lesmateriaal, apps, agents, offertes |
-| Dinsdag | Training leveren | klassikaal, online, hands-on labs |
-| Woensdag | Training leveren | verdieping, klantdagen |
-| Donderdag | Training leveren | workshops, maatwerk |
+| Dinsdag | Projectwerk leveren | klassikaal, online, hands-on labs |
+| Woensdag | Projectwerk leveren | verdieping, klantdagen |
+| Donderdag | Projectwerk leveren | workshops, maatwerk |
 | Vrijdag | Strategie en productontwikkeling | marketing, portfolio, reflectie |
 
 # Dagstart

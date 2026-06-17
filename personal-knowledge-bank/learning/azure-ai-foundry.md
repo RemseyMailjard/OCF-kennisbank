@@ -8,7 +8,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Leerdoel
 
-Azure AI Foundry kunnen uitleggen, demonstreren en toepassen in trainingen en consultancytrajecten.
+Azure AI Foundry kunnen uitleggen, demonstreren en toepassen in projecten en consultancytrajecten.
 
 # Onderwerpen
 
@@ -22,8 +22,8 @@ Azure AI Foundry kunnen uitleggen, demonstreren en toepassen in trainingen en co
 
 # Demo-ideeën
 
-- Bouw een AI-assistent die een trainingsoutline maakt.
-- Bouw een RAG-demo op basis van trainingsmateriaal.
+- Bouw een AI-assistent die een oplossingsoutline maakt.
+- Bouw een RAG-demo op basis van projectmateriaal.
 - Laat deelnemers prompts testen en evalueren op betrouwbaarheid.
 
 # Links
