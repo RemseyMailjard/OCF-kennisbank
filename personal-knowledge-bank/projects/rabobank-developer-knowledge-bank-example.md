@@ -1,8 +1,8 @@
 ---
 type: Training Example
 title: Rabobank developer knowledge bank example
-description: Voorbeeld van hoe Rabobank-ontwikkelaars een eigen OKF-kennisbank kunnen bouwen voor trainingen, projecten en kennisdeling.
-tags: [training, rabobank, knowledge-bank, example]
+description: Voorbeeld van hoe Rabobank-ontwikkelaars een eigen OKF-kennisbank kunnen bouwen voor projecten, kennisdeling en interne tooling.
+tags: [rabobank, knowledge-bank, example, internal]
 timestamp: 2026-06-17T00:00:00Z
 ---
 
@@ -13,7 +13,7 @@ timestamp: 2026-06-17T00:00:00Z
 Dit document laat zien hoe Rabobank-ontwikkelaars een eigen persoonlijke kennisbank kunnen gebruiken om:
 
 - technische kennis vast te leggen
-- trainingsmateriaal te structureren
+- technische kennis en materiaal te structureren
 - projectcontext te bewaren
 - AI-ondersteuning te laten werken op eigen kennis
 - keuzes te maken op basis van strategie en energie
@@ -26,19 +26,19 @@ Gebruik deze mappen als uitgangspunt:
 - `goals/` — strategische doelen, leerdoelen en werkweekvoorkeuren
 - `learning/` — technische notities, architectuurinzichten en trainingsonderwerpen
 - `decisions/` — beslisregels, keuzecriteria en belangrijke besluiten
-- `routines/` — weekplanning, trainingsvoorbereiding en reviewroutines
+- `routines/` — weekplanning, projectvoorbereiding en reviewroutines
 - `personal/` — energie, waarden, reflectie en focusinzichten
 - `agents/` — prompts en agentinstructies voor AI-assistenten
-- `templates/` — herbruikbare notitietemplates voor trainingen, klanten en projecten
+- `templates/` — herbruikbare notitietemplates voor projecten, klanten en oplossingen
 - `projects/` — project- of trainingsspecifieke context en evaluaties
 
-## Gebruik in training
+## Gebruik in een Rabobank projectcontext
 
 1. Laat ontwikkelaars hun eigen map kopiëren als startpunt.
 2. Vraag hen om drie concrete notities te maken:
    - een `goals/`-doel voor een persoonlijk leertraject of project
    - een `learning/`-notitie over een technisch onderwerp of tool
-   - een `projects/`-notitie met een trainings- of projectevaluatie
+   - een `projects/`-notitie met een project- of service-evaluatie
 3. Laat ze één AI-prompt in `agents/` gebruiken om een voorstel of samenvatting te genereren.
 4. Bespreek welke tags en metadata helpen om de kennis later terug te vinden.
 
@@ -53,7 +53,7 @@ Maak een bestand `goals/ai-agents-expert-worden.md` met:
 - beschrijving: waarom dit belangrijk is
 - tags: [ai, agents, learning]
 
-### Stap 2: noteer een trainingsidee
+### Stap 2: noteer een project- of oplossingsidee
 
 Maak een bestand `learning/mcp-workshop-rabobank.md` met:
 
@@ -86,7 +86,7 @@ Laat de ontwikkelaar `assistant-instructions.md` en één of twee relevante best
 - Gebruik tags om vergelijkbare notities te vinden.
 - Werk `log.md` wekelijks bij.
 - Gebruik `personal/energie-focus.md` om terugkerende werkpatronen te herkennen.
-- Maak na elke training een korte evaluatie in `projects/`.
+- Maak na elk project of elke workshop een korte evaluatie in `projects/`.
 
 ## Waarom dit werkt
 

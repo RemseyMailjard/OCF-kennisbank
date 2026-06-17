@@ -10,8 +10,8 @@ timestamp: 2026-06-14T18:43:13Z
 
 | Type | Voorbeelden van waarde |
 |---|---|
-| IT-opleiders | Inzet als senior freelance trainer |
-| Directe eindklanten | Maatwerktraining, consultancy en adoptie |
+| IT-opleiders | Inzet voor ontwikkel- en adoptieprojecten |
+| Directe eindklanten | Maatwerkoplossingen, consultancy en adoptie |
 | Gemeenten | AI, Microsoft 365, Power Platform, governance |
 | Retail | Procesverbetering, Power Platform, BI, AI |
 | Technische teams | Development, Azure, GitHub, hands-on labs |
@@ -20,7 +20,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 - Contactpersonen
 - Sector en context
-- Eerdere trainingen
+- Eerdere opdrachten of projecten
 - Tariefafspraken
 - Evaluaties
 - Vervolgkansen

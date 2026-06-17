@@ -1,7 +1,7 @@
 ---
 type: Personal Goal
 title: Gezondheid en rust bewaken
-description: Persoonlijke richtlijnen voor slaap, energie, focus en herstel naast intensief trainingswerk.
+description: Persoonlijke richtlijnen voor slaap, energie, focus en herstel naast intensief projectwerk.
 tags: [gezondheid, focus, rust, energie]
 timestamp: 2026-06-14T18:43:13Z
 ---
@@ -12,7 +12,7 @@ Een werkritme creëren waarin intensiteit samengaat met rust, herstel en duurzam
 
 # Uitgangspunten
 
-- Trainingsdagen vragen veel energie; plan herstel bewust.
+- Intensieve projectdagen vragen veel energie; plan herstel bewust.
 - Contextwissels verminderen focus; groepeer taken.
 - Bouwblokken voor productontwikkeling verdienen vaste tijd.
 - Gezondheid is een strategische randvoorwaarde, geen bijzaak.

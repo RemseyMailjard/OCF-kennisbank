@@ -1,7 +1,7 @@
 ---
 type: Guide
 title: How to use this OKF knowledge bundle
-description: Praktische handleiding om deze OKF-kennisbundel dagelijks te gebruiken voor werk, training, strategie en AI-ondersteuning.
+description: Praktische handleiding om deze OKF-kennisbundel dagelijks te gebruiken voor werk, projecten, strategie en AI-ondersteuning.
 tags: [okf, handleiding, kennisbank, ai, productiviteit, strategie]
 timestamp: 2026-06-14T00:00:00+02:00
 ---
@@ -10,7 +10,7 @@ timestamp: 2026-06-14T00:00:00+02:00
 
 Deze handleiding helpt je om **deze OKF-kennisbundel** praktisch te gebruiken in je dagelijkse werk en leven.
 
-Zie de bundel niet als “een map met documenten”, maar als jouw **persoonlijke besturingssysteem** voor keuzes, werk, training, strategie, reflectie en AI-ondersteuning.
+Zie de bundel niet als “een map met documenten”, maar als jouw **persoonlijke besturingssysteem** voor keuzes, werk, projecten, strategie, reflectie en AI-ondersteuning.
 
 OKF werkt goed omdat het simpel blijft: Markdown-bestanden met YAML-frontmatter. Daardoor is de kennis leesbaar voor jou, bruikbaar voor AI-agents, makkelijk te beheren in tools zoals VS Code of Obsidian, en geschikt voor versiebeheer via Git.
 
@@ -48,10 +48,10 @@ Voorbeeld:
 
 ```markdown
 ---
-type: Training Concept
+type: Solution Concept
 title: Power Automate en AI Automation
-description: Training over het automatiseren van repetitieve taken met Power Automate en AI.
-tags: [training, power-automate, ai, automation]
+description: Oplossing voor het automatiseren van repetitieve taken met Power Automate en AI.
+tags: [oplossing, power-automate, ai, automation]
 timestamp: 2026-06-14T00:00:00+02:00
 ---
 
@@ -104,8 +104,8 @@ Gebruik je OKF-bundel dagelijks om losse informatie snel op de juiste plek vast 
 
 | Situatie | Waar zet je het? |
 |---|---|
-| Nieuwe trainingsvraag | `business/opdrachtgevers.md` of een nieuw bestand in `projects/` |
-| Idee voor training | `learning/` of `business/proposities.md` |
+| Nieuwe ontwikkelvraag | `business/opdrachtgevers.md` of een nieuw bestand in `projects/` |
+| Idee voor oplossing | `learning/` of `business/proposities.md` |
 | Inzicht over energie/focus | `personal/energie-focus.md` |
 | Nieuwe prijsafspraak | `business/tarieven.md` |
 | Belangrijke beslissing | `decisions/` |
@@ -119,7 +119,7 @@ Maak het in eerste instantie niet te netjes. Eerst vastleggen, daarna pas struct
 
 ## 3. Gebruik bij offertes en klantvragen
 
-Wanneer een opdrachtgever vraagt om een training, workshop of adviestraject, open je eerst de relevante businessbestanden.
+Wanneer een opdrachtgever vraagt om een oplossing, workshop of adviestraject, open je eerst de relevante businessbestanden.
 
 Gebruik vooral:
 
@@ -150,9 +150,9 @@ Zo hoef je niet telkens opnieuw je positionering, tariefstructuur en stijl uit t
 
 ---
 
-## 4. Gebruik voor trainingsvoorbereiding
+## 4. Gebruik voor project- en oplossing voorbereiding
 
-Maak per training of onderwerp een eigen conceptbestand.
+Maak per project of onderwerp een eigen conceptbestand.
 
 Voorbeelden:
 
@@ -167,16 +167,16 @@ Gebruik deze vaste opbouw:
 
 ```markdown
 ---
-type: Training Concept
-title: Titel van de training
-description: Korte samenvatting van de training.
-tags: [training, onderwerp, doelgroep]
+type: Solution Concept
+title: Titel van de oplossing
+description: Korte samenvatting van de oplossing.
+tags: [oplossing, onderwerp, doelgroep]
 timestamp: 2026-06-14T00:00:00+02:00
 ---
 
 # Doelgroep
 
-Voor wie is deze training bedoeld?
+- Voor wie is deze workshop of oplossing bedoeld?
 
 # Leerdoelen
 
@@ -207,7 +207,7 @@ Welke vragen verwacht je?
 Wat moet de volgende keer beter?
 ```
 
-Na elke training vul je vooral dit onderdeel aan:
+Na elk project of elke sessie vul je vooral dit onderdeel aan:
 
 ```markdown
 # Verbeterpunten na uitvoering
@@ -379,7 +379,7 @@ Wat moet ik vandaag juist niet doen?
 
 ### Tijdens werk
 
-Je krijgt een trainingsvraag. Voeg een korte notitie toe:
+- Je krijgt een ontwikkelvraag. Voeg een korte notitie toe:
 
 ```markdown
 ## Nieuwe aanvraag

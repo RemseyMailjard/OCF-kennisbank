@@ -1,8 +1,8 @@
 ---
 type: Proposition Library
 title: Proposities
-description: Herbruikbare proposities voor trainingen, workshops en consultancy.
-tags: [proposities, trainingen, sales]
+description: Herbruikbare proposities voor ontwikkelprojecten, workshops en consultancy.
+tags: [proposities, projecten, sales]
 timestamp: 2026-06-14T18:43:13Z
 ---
 

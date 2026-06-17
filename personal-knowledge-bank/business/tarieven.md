@@ -8,14 +8,14 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Uitgangspunt
 
-De trainer positioneert zich als senior IT-trainer, consultant en ontwikkelaar met expertise in Microsoft 365, Azure, Power Platform, AI en Development.
+De aanbieder positioneert zich als senior IT-consultant en ontwikkelaar met expertise in Microsoft 365, Azure, Power Platform, AI en Development.
 
 # Richttarieven
 
 | Type inzet | Richtprijs |
 |---|---:|
-| Trainingsdag (direct klant) | €1.500 – €1.650 |
-| Trainingsdag via opleider/intermediair | €900 – €950 |
+| Dagdeel/dag (direct klant) | €1.500 – €1.650 |
+| Dagdeel/dag via opleider/intermediair | €900 – €950 |
 | Dagdeel van 3 uur | circa €1.050 – €1.200 |
 | Inspiratiesessie 1 uur | circa €350 |
 | Consultancy | €95 / uur |

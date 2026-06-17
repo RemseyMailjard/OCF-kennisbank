@@ -20,7 +20,7 @@ Vrijdag gebruiken om aan het bedrijf te werken in plaats van alleen in het bedri
 
 ## 2. Productontwikkeling
 
-- Welke training kan worden gestandaardiseerd?
+- Welke oplossing kan worden gestandaardiseerd?
 - Welke reader, lab of demo kan hergebruikt worden?
 - Welke AI-agent kan werk versnellen?
 

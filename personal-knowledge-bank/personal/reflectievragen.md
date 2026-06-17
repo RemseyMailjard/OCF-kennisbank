@@ -21,7 +21,7 @@ timestamp: 2026-06-14T18:43:13Z
 - Welke klanttypen passen het beste?
 - Wat moet ik standaardiseren?
 - Wat wil ik minder doen?
-- Welke training of propositie verdient aandacht?
+- Welke oplossing of propositie verdient aandacht?
 
 # Kwartaalreflectie
 

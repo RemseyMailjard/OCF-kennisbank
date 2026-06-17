@@ -1,14 +1,14 @@
 ---
 type: Prompt
 title: Prompt voor offertes en voorstellen
-description: Herbruikbare prompt om klantcontext om te zetten naar een helder trainingsvoorstel.
+description: Herbruikbare prompt om klantcontext om te zetten naar een helder voorstel voor een technische oplossing of workshop.
 tags: [prompt, offertes, sales]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
 # Prompt
 
-Gebruik mijn OKF-bundel als context. Lees eerst mijn tarieven, trainingsdomeinen, offerte-argumentatie en strategische doelen.
+Gebruik mijn OKF-bundel als context. Lees eerst mijn tarieven, domeinen, offerte-argumentatie en strategische doelen.
 
 Maak daarna een professioneel voorstel voor de volgende klantvraag:
 
@@ -20,10 +20,10 @@ Maak daarna een professioneel voorstel voor de volgende klantvraag:
 
 - Begin met een korte, warme introductie.
 - Vat de behoefte van de klant samen.
-- Geef een passende trainingstitel.
-- Beschrijf doelgroep, leerdoelen, opbouw en resultaat.
+- Geef een passende titel voor de oplossing of workshop.
+- Beschrijf doelgroep, doelstellingen, opbouw en resultaat.
 - Benoem de praktische aanpak.
-- Geef een prijsvoorstel dat past bij mijn tariefstrategie.
+- Geef een prijsvoorstel dat past bij de tariefstrategie.
 - Sluit af met een concrete vervolgstap.
 
 # Tone of voice

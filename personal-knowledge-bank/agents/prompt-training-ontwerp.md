@@ -1,14 +1,14 @@
 ---
 type: Prompt
-title: Prompt voor trainingsontwerp
-description: Herbruikbare prompt om een training, workshop of self-study module te ontwerpen in een praktische, didactische stijl.
-tags: [prompt, training, didactiek]
+title: Prompt voor ontwerp van een oplossing
+description: Herbruikbare prompt om een workshop, lab of oplossing te ontwerpen in een praktische, didactische stijl.
+tags: [prompt, ontwerp, didactiek]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
 # Prompt
 
-Ontwerp een training in een praktische, didactische stijl. Gebruik de OKF-kennisbundel als context, vooral trainingsdomeinen, trainingsvoorbereiding, didactische aanpak en relevante leerpaden.
+Ontwerp een oplossing, workshop of lab in een praktische, didactische stijl. Gebruik de OKF-kennisbundel als context, vooral domeinen, projectvoorbereiding, didactische aanpak en relevante leerpaden.
 
 Onderwerp:
 

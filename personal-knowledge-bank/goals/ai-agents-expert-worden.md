@@ -8,7 +8,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Doel
 
-Uitgroeien tot expert in AI-agenten en AI-gedreven automatisering, met praktische toepasbaarheid voor trainingen, consultancy en eigen productontwikkeling.
+Uitgroeien tot expert in AI-agenten en AI-gedreven automatisering, met praktische toepasbaarheid voor consultancy, productontwikkeling en projecten.
 
 # Kernonderwerpen
 
@@ -31,5 +31,5 @@ Uitgroeien tot expert in AI-agenten en AI-gedreven automatisering, met praktisch
 # Volgende acties
 
 - Bouw een demo-agent die deze OKF-bundel leest.
-- Maak één training “AI Agents bouwen met Python, RAG & Azure AI Foundry”.
+- Werk één use case uit: “AI Agents bouwen met Python, RAG & Azure AI Foundry”.
 - Documenteer elke agent-case als OKF-concept.

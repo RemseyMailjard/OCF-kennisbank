@@ -8,17 +8,17 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Kernboodschap
 
-De training is praktijkgericht, direct toepasbaar en afgestemd op de context van de deelnemers. De waarde zit niet alleen in kennisoverdracht, maar in het vermogen om deelnemers na afloop zelfstandig betere keuzes te laten maken en slimmer te laten werken.
+Het werk is praktijkgericht, direct toepasbaar en afgestemd op de context van de deelnemers. De waarde zit niet alleen in kennisoverdracht, maar in het vermogen om teams na afloop zelfstandig betere keuzes te laten maken en slimmer te laten werken.
 
 # Bouwstenen
 
 ## Praktijkgericht
 
-Deelnemers werken met herkenbare scenario’s uit hun eigen werkpraktijk. Hierdoor blijft de training concreet en toepasbaar.
+Deelnemers werken met herkenbare scenario’s uit hun eigen werkpraktijk. Hierdoor blijft het werk concreet en toepasbaar.
 
 ## Didactisch opgebouwd
 
-De training begint met heldere basisuitleg en bouwt stap voor stap op naar verdieping, oefeningen en toepassing.
+Het traject begint met heldere basisuitleg en bouwt stap voor stap op naar verdieping, oefeningen en toepassing.
 
 ## Maatwerk
 
@@ -31,6 +31,6 @@ Na afloop kunnen deelnemers niet alleen uitleggen wat een technologie doet, maar
 # Prijsverdediging
 
 - Voorbereiding en maatwerk verhogen de impact.
-- Senior expertise voorkomt oppervlakkige training.
+- Senior expertise voorkomt oppervlakkige oplossingen.
 - Praktische opdrachten zorgen voor borging.
 - Deelnemers besparen later tijd door betere werkwijzen.

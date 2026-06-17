@@ -1,12 +1,12 @@
 ---
 type: Evaluation
-title: Rabobank MCP training evaluation
-description: Trainer evaluation of the Rabobank MCP sessions, access challenges, and lab recommendations.
-tags: [evaluation, training, MCP, Rabobank, labs, access]
+title: Rabobank MCP evaluation
+description: Evaluatie van de Rabobank MCP sessies, toegangsknelpunten en labaanbevelingen.
+tags: [evaluation, MCP, Rabobank, labs, access]
 timestamp: 2026-06-17T00:00:00Z
 ---
 
-# Rabobank MCP training evaluation
+# Rabobank MCP evaluation
 
 ## Summary
 

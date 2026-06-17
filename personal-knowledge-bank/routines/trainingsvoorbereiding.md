@@ -1,8 +1,8 @@
 ---
 type: Checklist
-title: Trainingsvoorbereiding
-description: Checklist voor het voorbereiden van trainingen, workshops en maatwerktrajecten.
-tags: [training, voorbereiding, checklist]
+title: Projectvoorbereiding
+description: Checklist voor het voorbereiden van workshops, labs en maatwerkontwikkeltrajecten.
+tags: [checklist, voorbereiding, project]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
@@ -11,7 +11,7 @@ timestamp: 2026-06-14T18:43:13Z
 - Doelgroep helder?
 - Niveau bekend?
 - Sector/context bekend?
-- Leerdoelen afgestemd?
+- Doelstellingen of gewenste outcomes afgestemd?
 - Praktijkvoorbeelden verzameld?
 
 # Materiaal

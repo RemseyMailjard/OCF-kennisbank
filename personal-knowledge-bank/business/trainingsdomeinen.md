@@ -1,8 +1,8 @@
 ---
 type: Business Capability Map
 title: Trainingsdomeinen
-description: Kennisdomeinen waarvoor opdrachtgevers een trainer kunnen inzetten.
-tags: [trainingen, positionering, microsoft, ai]
+description: Kennisdomeinen waarvoor opdrachtgevers expertise kunnen inzetten.
+tags: [domeinen, positionering, microsoft, ai]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
@@ -17,9 +17,9 @@ timestamp: 2026-06-14T18:43:13Z
 | Development | C#, .NET, Java, API’s, GitHub, GitHub Copilot voor developers |
 | Data & BI | Power BI, SQL, Databricks, data-analyse, dashboarding |
 
-# Positionering richting IT-opleiders
+# Positionering richting IT-teams
 
-Een trainer is inzetbaar als senior begeleider voor technische én adoptiegerichte programma’s. De kracht zit in de combinatie van didactiek, praktijkervaring, Microsoft-technologie en AI-automatisering.
+Een ontwikkelaar of consultant is inzetbaar als senior partner voor technische én adoptiegerichte programma’s. De kracht zit in kennis van technologie, praktijkervaring en AI-automatisering.
 
 # Tone of voice
 
