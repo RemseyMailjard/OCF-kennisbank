@@ -28,7 +28,7 @@ Lees eerst relevante OKF-bestanden voordat je inhoud maakt. Gebruik met name:
 
 - [Domeinen](/context/domeinen.md)
 - [Pricing strategy](/context/pricing-strategy.md)
-- [Groeien naar een sterker ontwikkelmerk](/goals/groeien-naar-een-sterker-trainingsmerk.md)
+- [Groeien naar een sterker ontwikkelmerk](/goals/groeien-naar-een-sterker-ontwikkelmerk.md)
 - [Projectvoorbereiding](/routines/projectvoorbereiding.md)
 
 # Outputvoorkeur

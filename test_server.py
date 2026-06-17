@@ -33,12 +33,12 @@ def test_non_markdown_is_rejected():
 
 
 def test_lists_frontmatter_tags_and_types():
-    assert "training" in server._list_tags()
+    assert "template" in server._list_tags()
     assert "Template" in server._list_types()
 
 
 def test_search_metadata_filters_by_tag_and_folder():
-    hits = server._search_metadata(tag="training", folder="templates")
+    hits = server._search_metadata(tag="template", folder="templates")
     assert any(hit["file"] == "templates/solution-template.md" for hit in hits)
 
 
@@ -69,7 +69,7 @@ def test_context_bundle_includes_assignment_decision_notes():
 
 def test_link_graph_finds_outgoing_links_and_backlinks():
     outgoing = server._list_outgoing_links("context/pricing-strategy.md")
-    assert any(link["target"] == "decisions/dagtarief-strategie.md" for link in outgoing)
+    assert any(link["target"] == "decisions/pricing-strategy.md" for link in outgoing)
 
     backlinks = server._find_backlinks("context/pricing-strategy.md")
     assert any(backlink["source"] == "goals/skills4-it-groeien.md" for backlink in backlinks)

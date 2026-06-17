@@ -69,8 +69,8 @@ personal-knowledge-bank-mcp/
     ├── context/              # stakeholders, propositions, pricing and fit rules
     ├── decisions/            # reusable decision records and principles
     ├── goals/                # strategic goals and ideal-work constraints
-    ├── learning/             # topic notes for training and expertise growth
-    ├── learnings/            # MCP notes from the training material
+    ├── learning/             # topic notes for solutions and expertise growth
+    ├── learnings/            # MCP notes from the knowledge material
     ├── personal/             # energy, focus, values and reflection notes
     ├── profile/              # professional profile
     ├── projects/             # current project context

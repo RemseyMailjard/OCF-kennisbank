@@ -146,7 +146,7 @@ Beoordeel deze aanvraag op basis van mijn prijsstrategie, ideale kansen en strat
 Geef advies over prijs, vorm en scope.
 ```
 
-Zo hoef je niet telkens opnieuw je positionering, tariefstructuur en stijl uit te leggen.
+Zo hoef je niet telkens opnieuw je positionering, prijsstrategie en stijl uit te leggen.
 
 ---
 
@@ -230,7 +230,7 @@ Je OKF-bundel helpt je om minder reactief en meer strategisch te kiezen.
 Gebruik hiervoor vooral:
 
 ```text
-goals/groeien-naar-een-sterker-trainingsmerk.md
+goals/groeien-naar-een-sterker-ontwikkelmerk.md
 goals/ai-agents-expert-worden.md
 goals/ideale-werkweek.md
 personal/energie-focus.md
@@ -308,11 +308,11 @@ Schrijf een professioneel voorstel voor een oplossing.
 Houd rekening met mijn stijl, prijsstrategie, doelgroep en domeinen.
 ```
 
-### Voorbeeldprompt: training ontwerpen
+### Voorbeeldprompt: oplossing ontwerpen
 
 ```text
-Gebruik mijn OKF-bestand over trainingsstijl en dit trainingconcept.
-Maak een praktische training met leerdoelen, tijdsindeling, demo's en oefeningen.
+Gebruik mijn OKF-bestand over oplossingsstijl en dit concept.
+Maak een praktische oplossing met leerdoelen, tijdsindeling, demo's en oefeningen.
 Begin eenvoudig en bouw daarna op naar verdieping.
 ```
 
@@ -416,7 +416,7 @@ Lees mijn weeklog en geef 3 acties voor strategie, gezondheid en groei.
 Gebruik niet meteen de hele bundel. Begin met vijf bestanden:
 
 ```text
-1. goals/groeien-naar-een-sterker-trainingsmerk.md
+1. goals/groeien-naar-een-sterker-ontwikkelmerk.md
 2. context/pricing-strategy.md
 3. context/domeinen.md
 4. routines/weekplanning.md
@@ -428,7 +428,7 @@ Als deze vijf goed gevuld zijn, heb je al een krachtig systeem voor:
 - betere offertes;
 - scherpere keuzes;
 - minder contextverlies;
-- betere trainingsvoorbereiding;
+- betere projectvoorbereiding;
 - meer grip op energie en strategie.
 
 ---

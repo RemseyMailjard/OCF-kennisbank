@@ -439,13 +439,13 @@ def _context_bundle(kind: Literal["assignment", "pricing", "client_fit"]) -> dic
             "context/ideal-opportunity.md",
             "context/pricing-strategy.md",
             "decisions/welke-opdrachten-aannemen.md",
-            "decisions/dagtarief-strategie.md",
+            "decisions/pricing-strategy.md",
             "goals/ideale-werkweek.md",
         ],
         "pricing": [
             "context/pricing-strategy.md",
             "context/proposal-arguments.md",
-            "decisions/dagtarief-strategie.md",
+            "decisions/pricing-strategy.md",
             "context/proposities.md",
         ],
         "client_fit": [
@@ -479,7 +479,7 @@ def _training_context(topic: str = "") -> dict:
 
 def _goal_alignment_context(proposal: str = "") -> dict:
     files = [
-        "goals/skills4-it-groeien.md",
+        "goals/groeien-naar-een-sterker-ontwikkelmerk.md",
         "goals/ai-agents-expert-worden.md",
         "goals/gezondheid-en-rust.md",
         "goals/ideale-werkweek.md",
