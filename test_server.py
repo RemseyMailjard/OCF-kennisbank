@@ -153,7 +153,7 @@ def test_validate_index_coverage_accepts_linked_notes(tmp_path, monkeypatch):
     result = server._validate_index_coverage()
 
     assert result["valid"] is True
-    assert result["checked_indexes"] == ["business/index.md"]
+    assert result["checked_indexes"] == ["context/index.md"]
 
 
 def test_training_context_includes_training_materials():
@@ -211,11 +211,11 @@ def test_append_to_log_writes_only_log_file(tmp_path, monkeypatch):
 def test_create_note_from_template_creates_markdown_inside_bank(tmp_path, monkeypatch):
     templates = tmp_path / "templates"
     templates.mkdir()
-    (templates / "training-template.md").write_text("# Old title\n\nBody", encoding="utf-8")
+    (templates / "solution-template.md").write_text("# Old title\n\nBody", encoding="utf-8")
     monkeypatch.setattr(server, "KB_ROOT", tmp_path.resolve())
 
     result = server._create_note_from_template(
-        "training-template",
+        "solution-template",
         "learning/copilot-finance.md",
         "Copilot Finance",
     )

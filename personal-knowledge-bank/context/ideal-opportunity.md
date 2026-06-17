@@ -12,7 +12,7 @@ Een passende klant wil praktisch leren, slimmer werken met technologie en staat 
 
 # Passende klanttypen
 
-- IT-opleiders die senior expertise nodig hebben.
+- Technische teams en partners die senior expertise nodig hebben.
 - Gemeenten en publieke organisaties met adoptie- en governancevraagstukken.
 - Retail- en mkb-organisaties die processen willen verbeteren.
 - Technische teams die hands-on labs en verdieping nodig hebben.

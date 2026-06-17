@@ -12,7 +12,7 @@ Deze bundel is bedoeld als een persoonlijke en zakelijke kennisbesturingssysteem
 # Startpunten
 
 * [Doelen](goals/) - strategische en persoonlijke doelen.
-* [Business](business/) - tarieven, domeinen, proposities en opdrachtgevers.
+* [Context](context/) - prijsstrategie, domeinen, proposities en stakeholders.
 * [Learning](learning/) - leerpaden en expertiseontwikkeling.
 * [Decisions](decisions/) - belangrijke beslissingen en beslisregels.
 * [Routines](routines/) - weekritme, projectvoorbereiding en strategiedagen.

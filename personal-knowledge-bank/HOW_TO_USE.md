@@ -77,7 +77,7 @@ Gebruik je OKF-bundel als spiegel bij beslissingen.
 Voorbeeldvragen:
 
 - Past deze opdracht bij mijn strategie?
-- Is dit tarief logisch voor deze aanvraag?
+- Is deze context- en prijsstrategie logisch voor deze aanvraag?
 - Welke propositie past bij deze klant?
 - Welke oplossing moet ik standaardiseren?
 - Welke taken kosten energie en welke geven energie?
@@ -104,10 +104,10 @@ Gebruik je OKF-bundel dagelijks om losse informatie snel op de juiste plek vast 
 
 | Situatie | Waar zet je het? |
 |---|---|
-| Nieuwe ontwikkelvraag | `business/opdrachtgevers.md` of een nieuw bestand in `projects/` |
-| Idee voor oplossing | `learning/` of `business/proposities.md` |
+| Nieuwe ontwikkelvraag | `context/stakeholders.md` of een nieuw bestand in `projects/` |
+| Idee voor oplossing | `learning/` of `context/proposities.md` |
 | Inzicht over energie/focus | `personal/energie-focus.md` |
-| Nieuwe prijsafspraak | `business/tarieven.md` |
+| Nieuwe prijsafspraak | `context/pricing-strategy.md` |
 | Belangrijke beslissing | `decisions/` |
 | Lesidee of oefening | `learning/` of `templates/` |
 | Nieuwe AI-agent prompt | `agents/` |
@@ -119,30 +119,30 @@ Maak het in eerste instantie niet te netjes. Eerst vastleggen, daarna pas struct
 
 ## 3. Gebruik bij offertes en klantvragen
 
-Wanneer een opdrachtgever vraagt om een oplossing, workshop of adviestraject, open je eerst de relevante businessbestanden.
+Wanneer een belanghebbende vraagt om een oplossing, workshop of adviestraject, open je eerst de relevante contextbestanden.
 
 Gebruik vooral:
 
 ```text
-business/tarieven.md
-business/trainingsdomeinen.md
-business/proposities.md
-business/standaard-offerte-argumentatie.md
-templates/training-template.md
+context/pricing-strategy.md
+context/domeinen.md
+context/proposities.md
+context/proposal-arguments.md
+templates/solution-template.md
 ```
 
 Vraag daarna aan ChatGPT bijvoorbeeld:
 
 ```text
-Gebruik mijn OKF-kennis over tarieven, trainingsdomeinen en stijl.
-Maak een voorstel voor een 1-daagse oplossing of workshop rond Power Automate en AI-automatisering voor een opdrachtgever.
+Gebruik mijn OKF-kennis over prijsstrategie, domeinen en stijl.
+Maak een voorstel voor een 1-daagse oplossing of workshop rond Power Automate en AI-automatisering voor een belanghebbende.
 Gebruik een warme, professionele en duidelijke toon.
 ```
 
 Of:
 
 ```text
-Beoordeel deze aanvraag op basis van mijn tarieven, ideale klant en strategische doelen.
+Beoordeel deze aanvraag op basis van mijn prijsstrategie, ideale kansen en strategische doelen.
 Geef advies over prijs, vorm en scope.
 ```
 
@@ -265,7 +265,7 @@ Open deze bestanden:
 ```text
 log.md
 goals/skills4-it-groeien.md
-business/proposities.md
+context/proposities.md
 personal/energie-focus.md
 routines/vrijdag-strategiedag.md
 ```
@@ -279,7 +279,7 @@ Beantwoord drie vragen:
 
 ### Wat kostte energie?
 
-### Welke kennis, training of propositie moet ik volgende week aanscherpen?
+### Welke kennis, oplossing of propositie moet ik volgende week aanscherpen?
 ```
 
 Leg daarna maximaal drie acties vast:

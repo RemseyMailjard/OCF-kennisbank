@@ -1,8 +1,8 @@
-# Business
+# Context
 
-* [Tarieven](tarieven.md) - Commerciële uitgangspunten voor dagtarieven, dagdelen en reiskosten.
-* [Trainingsdomeinen](trainingsdomeinen.md) - Kennisdomeinen waarvoor opdrachtgevers expertise kunnen inzetten.
-* [Ideale klant](ideale-klant.md) - Criteria voor passende klanten en opdrachten.
+* [Pricing strategy](pricing-strategy.md) - Richtlijnen en marktobservaties voor prijspositionering.
+* [Domeinen](domeinen.md) - Kennisdomeinen waarvoor organisaties expertise kunnen inzetten.
+* [Ideal opportunity](ideal-opportunity.md) - Criteria voor passende kansen en context.
 * [Proposities](proposities.md) - Herbruikbare proposities voor projecten, workshops en consultancy.
-* [Standaard offerte argumentatie](standaard-offerte-argumentatie.md) - Bouwstenen voor sterke offertes en prijsvoorstellen.
-* [Opdrachtgevers](opdrachtgevers.md) - Overzicht van klanttypen, opleiders en eindklanten.
+* [Proposal arguments](proposal-arguments.md) - Bouwstenen voor sterke voorstellen en positionering.
+* [Stakeholders](stakeholders.md) - Overzicht van relevante stakeholders, rollen en samenwerkingsvormen.

@@ -22,7 +22,7 @@ Dit document laat zien hoe Rabobank-ontwikkelaars een eigen persoonlijke kennisb
 
 Gebruik deze mappen als uitgangspunt:
 
-- `business/` — commerciële onderwerpen, klanttypes, tarieven en proposities
+- `context/` — commerciële onderwerpen, stakeholdercontext, prijsstrategie en proposities
 - `goals/` — strategische doelen, leerdoelen en werkweekvoorkeuren
 - `learning/` — technische notities, architectuurinzichten en oplossingsonderwerpen
 - `decisions/` — beslisregels, keuzecriteria en belangrijke besluiten

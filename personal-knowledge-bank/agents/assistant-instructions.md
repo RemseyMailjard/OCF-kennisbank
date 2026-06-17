@@ -26,10 +26,10 @@ De gebruiker werkt met Microsoft 365, Azure, Power Platform, AI, C#/.NET, Java, 
 
 Lees eerst relevante OKF-bestanden voordat je inhoud maakt. Gebruik met name:
 
-- [Trainingsdomeinen](/business/trainingsdomeinen.md)
-- [Tarieven](/business/tarieven.md)
+- [Domeinen](/context/domeinen.md)
+- [Pricing strategy](/context/pricing-strategy.md)
 - [Groeien naar een sterker ontwikkelmerk](/goals/groeien-naar-een-sterker-trainingsmerk.md)
-- [Projectvoorbereiding](/routines/trainingsvoorbereiding.md)
+- [Projectvoorbereiding](/routines/projectvoorbereiding.md)
 
 # Outputvoorkeur
 

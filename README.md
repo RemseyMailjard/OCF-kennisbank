@@ -66,7 +66,7 @@ personal-knowledge-bank-mcp/
     ├── index.md
     ├── log.md
     ├── agents/               # agent instructions and prompt-design notes
-    ├── business/             # clients, propositions, rates and fit rules
+    ├── context/              # stakeholders, propositions, pricing and fit rules
     ├── decisions/            # reusable decision records and principles
     ├── goals/                # strategic goals and ideal-work constraints
     ├── learning/             # topic notes for training and expertise growth

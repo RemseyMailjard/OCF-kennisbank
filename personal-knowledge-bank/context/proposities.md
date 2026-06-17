@@ -44,4 +44,4 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Gebruik
 
-Gebruik dit bestand als bron voor offertes, websitepagina’s en opleiderscommunicatie.
+Gebruik dit bestand als bron voor voorstellen, websitepagina’s en stakeholdercommunicatie.

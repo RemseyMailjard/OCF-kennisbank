@@ -8,7 +8,7 @@ timestamp: 2026-06-14T18:43:13Z
 
 # Prompt
 
-Gebruik mijn OKF-bundel als context. Lees eerst mijn tarieven, domeinen, offerte-argumentatie en strategische doelen.
+Gebruik mijn OKF-bundel als context. Lees eerst mijn prijsstrategie, domeinen, voorstel-argumentatie en strategische doelen.
 
 Maak daarna een professioneel voorstel voor de volgende klantvraag:
 
@@ -23,7 +23,7 @@ Maak daarna een professioneel voorstel voor de volgende klantvraag:
 - Geef een passende titel voor de oplossing of workshop.
 - Beschrijf doelgroep, doelstellingen, opbouw en resultaat.
 - Benoem de praktische aanpak.
-- Geef een prijsvoorstel dat past bij de tariefstrategie.
+- Geef een prijsvoorstel dat past bij de prijsstrategie.
 - Sluit af met een concrete vervolgstap.
 
 # Tone of voice

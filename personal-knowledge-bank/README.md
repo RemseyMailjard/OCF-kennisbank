@@ -13,7 +13,7 @@ Deze map is jouw persoonlijke kennisbasis. Elk `.md`-bestand beschrijft één co
 # Aanbevolen workflow
 
 1. **Wekelijks bijwerken**: werk op vrijdag je doelen, beslissingen en reflecties bij.
-2. **Bij nieuwe opdrachten**: voeg een klant, oplossing of voorstel toe aan `business/`.
+2. **Bij nieuwe opdrachten**: voeg een klant, oplossing of voorstel toe aan `context/`.
 3. **Bij nieuwe inzichten**: voeg ze toe aan `learning/`, `decisions/` of `personal/`.
 4. **Bij AI-gebruik**: laat een AI-agent eerst relevante bestanden lezen voordat die een voorstel, oplossing of mail schrijft.
 

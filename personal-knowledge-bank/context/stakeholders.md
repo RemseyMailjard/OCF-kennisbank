@@ -1,31 +1,31 @@
 ---
 type: Relationship Map
-title: Opdrachtgevers en klanttypen
-description: Overzicht van relevante klanttypen, opleiders, eindklanten en samenwerkingsvormen.
-tags: [klanten, netwerk, sales]
+title: Belanghebbenden en organisatiecontext
+description: Overzicht van relevante stakeholders, rollen en samenwerkingsvormen.
+tags: [stakeholders, netwerk, strategy]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
-# Klanttypen
+# Stakeholdertypen
 
 | Type | Voorbeelden van waarde |
 |---|---|
-| IT-opleiders | Inzet voor ontwikkel- en adoptieprojecten |
-| Directe eindklanten | Maatwerkoplossingen, consultancy en adoptie |
-| Gemeenten | AI, Microsoft 365, Power Platform, governance |
-| Retail | Procesverbetering, Power Platform, BI, AI |
-| Technische teams | Development, Azure, GitHub, hands-on labs |
+| IT-teams | technische adoptie, integratie en beheer |
+| Business stakeholders | procesverbetering, data en besluitvorming |
+| Operations | procesautomatisering en stabiliteit |
+| Governance | security, compliance en risico |
+| Partners | advies, implementatie of co-creatie |
 
-# Te bewaren per opdrachtgever
+# Te bewaren per stakeholdergroep
 
 - Contactpersonen
-- Sector en context
-- Eerdere opdrachten of projecten
-- Tariefafspraken
+- Organisatiecontext
+- Eerdere projecten of samenwerkingen
+- Afgesproken scope en succescriteria
 - Evaluaties
 - Vervolgkansen
 - Specifieke tone of voice of voorkeuren
 
 # Template
 
-Gebruik [Business client template](/templates/business-client-template.md) voor nieuwe opdrachtgevers.
+Gebruik [Context opportunity template](/templates/context-opportunity-template.md) voor nieuwe stakeholder- of opportuniteitscontext.

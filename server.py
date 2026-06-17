@@ -1005,11 +1005,11 @@ def create_training_note(topic: str, target_path: str = "", overwrite: bool = Fa
 
 
 @mcp.tool(
-    description="Create a client context note from the business client template, using business/clients/{slug}.md by default.",
+    description="Create a client context note from the context opportunity template, using context/clients/{slug}.md by default.",
     annotations=_write_tool_annotations("Create Client Note"),
 )
 def create_client_note(client_name: str, target_path: str = "", overwrite: bool = False) -> dict:
-    """Create a client context note from the business client template."""
+    """Create a context note from the context opportunity template."""
     return _create_client_note(client_name, target_path, overwrite)
 
 

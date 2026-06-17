@@ -1,8 +1,8 @@
 ---
 type: Template
-title: Training template
-description: Template voor het ontwerpen van een training of workshop.
-tags: [template, training, didactiek]
+title: Solution template
+description: Template voor het ontwerpen van een oplossing of workshop.
+tags: [template, oplossing, design]
 timestamp: 2026-06-14T18:43:13Z
 ---
 

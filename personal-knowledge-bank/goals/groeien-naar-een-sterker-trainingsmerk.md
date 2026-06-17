@@ -33,4 +33,4 @@ Meer schaalbaarheid betekent minder afhankelijkheid van alleen eigen inzetdagen 
 
 # Links
 
-Zie ook [Tarieven](/business/tarieven.md), [Trainingsdomeinen](/business/trainingsdomeinen.md) en [Welke opdrachten aannemen](/decisions/welke-opdrachten-aannemen.md).
+Zie ook [Pricing strategy](/context/pricing-strategy.md), [Domeinen](/context/domeinen.md) en [Welke opdrachten aannemen](/decisions/welke-opdrachten-aannemen.md).
