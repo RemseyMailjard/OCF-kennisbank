@@ -23,9 +23,9 @@ Uitgroeien tot expert in AI-agenten en AI-gedreven automatisering, met praktisch
 
 # Praktijkcases
 
-- Agent die trainingsvoorstellen maakt op basis van OKF-kennis.
+- Agent die voorstellen maakt op basis van OKF-kennis.
 - Agent die e-mails samenvat en acties afleidt.
-- Agent die klantcontext omzet naar trainingsoutline.
+- Agent die klantcontext omzet naar een project- of oplossingsoutline.
 - Agent die bestanden classificeert en ordent.
 
 # Volgende acties
