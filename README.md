@@ -29,7 +29,7 @@ logs, inbox captures and template-based note creation:
 | Tool | `prepare_assignment_decision_context` | Returns notes for deciding whether an assignment fits. |
 | Tool | `prepare_pricing_context` | Returns notes for pricing and proposal reasoning. |
 | Tool | `prepare_client_fit_context` | Returns notes for client-fit assessment. |
-| Tool | `prepare_training_context` | Returns training template, preparation, business and matching topic notes. |
+| Tool | `prepare_training_context` | Returns solution template, preparation, context and matching topic notes. |
 | Tool | `prepare_goal_alignment_context` | Returns goals, decisions, energy and routine context for strategic fit. |
 | Tool | `check_goal_alignment` | Returns evidence signals for how a proposal overlaps with saved goals and rules. |
 | Tool | `list_recent_notes` | Lists notes ordered by frontmatter timestamp. |
@@ -40,8 +40,8 @@ logs, inbox captures and template-based note creation:
 | Tool | `create_note_from_template` | Creates a Markdown note from an existing template. |
 | Tool | `list_templates` | Lists templates available for safe note creation. |
 | Tool | `preview_note_from_template` | Previews generated Markdown without writing a file. |
-| Tool | `create_training_note` | Creates a training design note from the training template. |
-| Tool | `create_client_note` | Creates a client note from the business client template. |
+| Tool | `create_training_note` | Creates a solution design note from the solution template. |
+| Tool | `create_client_note` | Creates a client note from the context opportunity template. |
 | Tool | `create_decision_note` | Creates a decision note from the concept template. |
 | Resource template | `knowledge://{path}` | Reads Markdown files as MCP resources. |
 | Prompt | `refinement_summary` | Surfaces the saved summary prompt. |
@@ -176,11 +176,11 @@ Restart Claude Desktop and ask, for example:
 - *Find orphan notes that need more links.*
 - *Does this assignment fit my goals and ideal workweek?*
 - *Give me a daily briefing from my current project, goals, routines and log.*
-- *Prepare training context for a Copilot workshop.*
-- *Prepare pricing context for a new Power Automate training request.*
+- *Prepare solution context for a Copilot workshop.*
+- *Prepare pricing context for a new Power Automate solution request.*
 - *Capture this raw idea in my inbox: build a Power Automate governance workshop.*
-- *Preview a new training note from the training template.*
-- *Create a new training note from the training template.*
+- *Preview a new solution note from the solution template.*
+- *Create a new solution note from the solution template.*
 
 ## Security note
 

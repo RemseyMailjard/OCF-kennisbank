@@ -874,11 +874,11 @@ def prepare_client_fit_context() -> dict:
 
 
 @mcp.tool(
-    description="Return the training template, preparation checklist, business context and topic matches for designing a training.",
+    description="Return the solution template, preparation checklist, context and matching topic notes for designing a solution.",
     annotations=_read_tool_annotations("Prepare Training Context"),
 )
 def prepare_training_context(topic: str = "") -> dict:
-    """Return template, preparation, business and matching notes for designing a training."""
+    """Return template, preparation, context and matching notes for designing a solution."""
     return _training_context(topic)
 
 
@@ -969,7 +969,7 @@ def create_note_from_template(
     """Create a Markdown note inside the knowledge bank from an existing template.
 
     Args:
-        template: Template path or name, such as templates/training-template.md or training-template.
+        template: Template path or name, such as templates/solution-template.md or solution-template.
         target_path: New Markdown path inside the knowledge bank.
         title: Replacement title for the first top-level Markdown heading.
         overwrite: Whether to replace an existing target note.
@@ -996,7 +996,7 @@ def preview_note_from_template(template: str, title: str, target_path: str = "")
 
 
 @mcp.tool(
-    description="Create a training design note from the training template, using a safe learning/{slug}.md path by default.",
+    description="Create a solution design note from the solution template, using a safe learning/{slug}.md path by default.",
     annotations=_write_tool_annotations("Create Training Note"),
 )
 def create_training_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
@@ -1059,7 +1059,7 @@ def training_design(topic: str = "") -> str:
     """Design a solution using the solution template and learning/context notes."""
     topic_line = f" for {topic}" if topic else ""
     return (
-        f"Design a practical solution or workshop{topic_line}. Use templates/solution-template.md, "
+        f"Design a practical solution{topic_line}. Use templates/solution-template.md, "
         "context/domeinen.md, context/proposities.md and relevant learning notes. "
         "Return a clear outline with audience, goals, modules, demos, exercises and evaluation."
     )

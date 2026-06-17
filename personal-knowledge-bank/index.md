@@ -24,6 +24,6 @@ Deze bundel is bedoeld als een persoonlijke en zakelijke kennisbesturingssysteem
 # Gebruik
 
 1. Open de map in VS Code, Obsidian of een andere Markdown-editor.
-2. Vul de conceptbestanden aan met echte voorbeelden, links, tarieven en beslissingen.
+2. Vul de conceptbestanden aan met echte voorbeelden, links, prijsstrategie en beslissingen.
 3. Zet de bundel eventueel in een private Git-repository.
 4. Gebruik de bundel als kennisbron voor ChatGPT, Custom GPTs, Copilot Studio of eigen agents.

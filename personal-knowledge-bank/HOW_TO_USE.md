@@ -304,8 +304,8 @@ Je kunt steeds één of meerdere OKF-bestanden uploaden of plakken als context.
 
 ```text
 Gebruik deze OKF-bestanden als mijn persoonlijke context.
-Schrijf een professioneel voorstel voor een training.
-Houd rekening met mijn stijl, tarieven, doelgroep en trainingsdomeinen.
+Schrijf een professioneel voorstel voor een oplossing.
+Houd rekening met mijn stijl, prijsstrategie, doelgroep en domeinen.
 ```
 
 ### Voorbeeldprompt: training ontwerpen
@@ -398,7 +398,7 @@ Werk `log.md` bij:
 
 * **Inzicht**: Power Automate + AI Automation lijkt een sterke propositie.
 * **Actie**: Outline standaardiseren.
-* **Vraag**: Dagtarief of dagdeelprijs hiervoor aanscherpen?
+* **Vraag**: Prijs of scope hiervoor aanscherpen?
 ```
 
 ### Vrijdag

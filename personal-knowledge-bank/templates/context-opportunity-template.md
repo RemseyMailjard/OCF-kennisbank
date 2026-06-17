@@ -6,7 +6,7 @@ tags: [template, context, opportunity]
 timestamp: 2026-06-14T18:43:13Z
 ---
 
-# Klantnaam
+# Opportunity naam
 
 ## Basisinformatie
 
@@ -17,7 +17,7 @@ timestamp: 2026-06-14T18:43:13Z
 | Contactpersoon |  |
 | E-mail |  |
 | Telefoon |  |
-| Type klant | IT-opleider / Eindklant / Partner |
+| Type partner | IT-team / Eindklant / Partner |
 
 ## Context
 
