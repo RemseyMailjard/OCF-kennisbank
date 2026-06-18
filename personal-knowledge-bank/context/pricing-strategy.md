@@ -39,4 +39,4 @@ Deze notitie beschrijft hoe je prijspositionering gebruikt om projectaanbiedinge
 
 # Links
 
-Zie ook [Proposal arguments](/context/proposal-arguments.md).
+Zie ook [Proposal arguments](/context/proposal-arguments.md) en [Pricing strategy](/decisions/pricing-strategy.md).
