@@ -1,36 +1,36 @@
 ---
 type: Guide
-title: Developer kennisbundel — README
-description: Een generieke persoonlijke kennisbundel voor een Rabobank-ontwikkelaar, voor werk, leren, beslissingen, routines en persoonlijk leven.
-tags: [okf, kennisbank, developer, handleiding]
+title: Developer knowledge bank — README
+description: A generic personal knowledge bank for a Rabobank developer, covering work, learning, decisions, routines and personal life.
+tags: [okf, knowledge-bank, developer, guide]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Developer kennisbundel
+# Developer knowledge bank
 
-Deze bundel is een persoonlijk kennisbesturingssysteem voor een ontwikkelaar bij de Rabobank. Hij is leesbaar voor jou, bruikbaar voor AI-agenten en eenvoudig te beheren in Git of een gewone mapstructuur.
+This bank is a personal knowledge operating system for a developer at Rabobank. It is readable for you, usable for AI agents and easy to manage in Git or a plain folder structure.
 
-De bundel is bewust generiek gehouden: hij past bij vrijwel elke ontwikkelaar in loondienst en biedt naast werk ook ruimte voor je persoonlijke leven (gezondheid, balans, financiën, relaties en ontspanning).
+The bank is deliberately kept generic: it fits almost any employed developer and, besides work, also makes room for your personal life (health, balance, finances, relationships and relaxation).
 
-# Startpunten
+# Starting points
 
-* [Goals](goals/) - loopbaan-, leer- en persoonlijke doelen.
-* [Work](work/) - projecten, team, stakeholders, tech-stack en werkwijze.
-* [Learning](learning/) - leerpaden en vaardigheidsontwikkeling.
-* [Decisions](decisions/) - technische en persoonlijke beslissingen.
-* [Routines](routines/) - dag- en weekritme, sprintritme en reviews.
-* [Personal](personal/) - waarden, gezondheid, financiën, relaties en reflectie.
-* [Agents](agents/) - instructies en prompts voor AI-agenten.
-* [Templates](templates/) - herbruikbare Markdown-templates.
-* [References](references/) - toelichting op OKF-principes.
+* [Goals](goals/) - career, learning and personal goals.
+* [Work](work/) - projects, team, stakeholders, tech stack and ways of working.
+* [Learning](learning/) - learning paths and skills development.
+* [Decisions](decisions/) - technical and personal decisions.
+* [Routines](routines/) - daily and weekly rhythm, sprint rhythm and reviews.
+* [Personal](personal/) - values, health, finances, relationships and reflection.
+* [Agents](agents/) - instructions and prompts for AI agents.
+* [Templates](templates/) - reusable Markdown templates.
+* [References](references/) - explanation of OKF principles.
 
-# Gebruik
+# Usage
 
-1. Open de map in VS Code, Obsidian of een andere Markdown-editor.
-2. Vul de conceptbestanden aan met je eigen projecten, doelen, beslissingen en reflecties.
-3. Zet de bundel eventueel in een private Git-repository.
-4. Gebruik de bundel als kennisbron voor Copilot, ChatGPT of eigen agents.
+1. Open the folder in VS Code, Obsidian or another Markdown editor.
+2. Fill the concept files with your own projects, goals, decisions and reflections.
+3. Optionally put the bank in a private Git repository.
+4. Use the bank as a knowledge source for Copilot, ChatGPT or your own agents.
 
 # Privacy
 
-Houd deze bundel persoonlijk. Zet er geen klantgegevens, wachtwoorden, tokens, interne URL's of vertrouwelijke bedrijfsinformatie in.
+Keep this bank personal. Don't put customer data, passwords, tokens, internal URLs or confidential business information in it.

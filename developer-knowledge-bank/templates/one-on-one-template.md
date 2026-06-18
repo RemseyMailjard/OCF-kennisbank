@@ -1,38 +1,38 @@
 ---
 type: Template
-title: 1-op-1 template
-description: Template om een 1-op-1 met je lead voor te bereiden en vast te leggen.
-tags: [template, 1-op-1, feedback, loopbaan]
+title: 1-on-1 template
+description: Template to prepare and record a 1-on-1 with your lead.
+tags: [template, 1-on-1, feedback, career]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# 1-op-1 — <datum>
+# 1-on-1 — <date>
 
-## Hoe gaat het
+## How things are going
 
-- Algemeen gevoel over werk en balans.
+- General feeling about work and balance.
 
-## Voortgang
+## Progress
 
-- Waar ben ik trots op sinds vorige keer?
-- Waar loop ik tegenaan?
+- What am I proud of since last time?
+- What am I running into?
 
-## Onderwerpen om te bespreken
+## Topics to discuss
 
 1. 
 2. 
 
 ## Feedback
 
-- Feedback die ik wil vragen.
-- Feedback die ik wil geven.
+- Feedback I want to ask for.
+- Feedback I want to give.
 
-## Afspraken / acties
+## Agreements / actions
 
 - [ ] 
 - [ ] 
 
-# Gerelateerd
+# Related
 
-- [Loopbaangroei](../goals/career-growth.md)
-- [Team en stakeholders](../work/team-and-stakeholders.md)
+- [Career growth](../goals/career-growth.md)
+- [Team and stakeholders](../work/team-and-stakeholders.md)

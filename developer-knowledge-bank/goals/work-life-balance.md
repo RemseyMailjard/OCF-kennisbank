@@ -1,31 +1,31 @@
 ---
 type: Goal
-title: Werk-privébalans
-description: Doelen om een gezonde balans tussen werk en privé te houden.
-tags: [balans, werk-privé, welzijn, doelen]
+title: Work-life balance
+description: Goals to keep a healthy balance between work and personal life.
+tags: [balance, work-life, wellbeing, goals]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Goed werk komt voort uit een leven dat in balans is. Ik wil productief zijn op werk én energie overhouden voor privé.
+Good work comes from a life that is in balance. I want to be productive at work and still have energy left for my personal life.
 
-# Uitgangspunten
+# Principles
 
-- Duidelijke start- en eindtijden, ook bij thuiswerken.
-- Pauzes nemen en echt loskomen van het scherm.
-- Werk en privé gescheiden houden (notificaties uit buiten werktijd).
-- Vakantiedagen en hersteldagen bewust inplannen.
+- Clear start and end times, also when working from home.
+- Take breaks and truly disconnect from the screen.
+- Keep work and personal life separate (notifications off outside working hours).
+- Deliberately plan vacation days and recovery days.
 
-# Doelen
+# Goals
 
-- [ ] Een vast dagritme aanhouden (zie `routines/daily-routine.md`).
-- [ ] Niet structureel overwerken.
-- [ ] Minstens één avond per week zonder schermen.
-- [ ] Regelmatig bewegen en buiten zijn.
+- [ ] Keep a fixed daily rhythm (see `routines/daily-routine.md`).
+- [ ] Don't structurally work overtime.
+- [ ] At least one evening per week without screens.
+- [ ] Move and get outside regularly.
 
-# Gerelateerd
+# Related
 
-- [Gezondheid en energie](health-and-energy.md)
-- [Dagritme](../routines/daily-routine.md)
-- [Gezondheid](../personal/health.md)
+- [Health and energy](health-and-energy.md)
+- [Daily routine](../routines/daily-routine.md)
+- [Health](../personal/health.md)

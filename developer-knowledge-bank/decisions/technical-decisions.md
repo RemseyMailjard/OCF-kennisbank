@@ -1,31 +1,31 @@
 ---
 type: Decision Log
-title: Technische beslissingen
-description: Logboek van belangrijke technische keuzes met context en motivatie (lichte ADR-stijl).
-tags: [beslissingen, architectuur, adr, technisch]
+title: Technical decisions
+description: Log of important technical choices with context and rationale (light ADR style).
+tags: [decisions, architecture, adr, technical]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Hoe ik beslissingen vastleg
+# How I record decisions
 
-Voor elke belangrijke keuze noteer ik kort: context, opties, besluit en gevolgen. Zo blijft de redenering later navolgbaar.
+For each important choice I note briefly: context, options, decision and consequences. That keeps the reasoning traceable later.
 
-# Beslissing: <titel>
+# Decision: <title>
 
-- **Datum**: 
-- **Context**: welk probleem speelde er?
-- **Opties**: welke alternatieven heb ik overwogen?
-- **Besluit**: wat is gekozen en waarom?
-- **Gevolgen**: wat betekent dit (voordelen, nadelen, risico's)?
-- **Status**: voorgesteld / geaccepteerd / vervangen.
+- **Date**: 
+- **Context**: what problem was at play?
+- **Options**: which alternatives did I consider?
+- **Decision**: what was chosen and why?
+- **Consequences**: what does this mean (benefits, drawbacks, risks)?
+- **Status**: proposed / accepted / superseded.
 
-# Beslisregels
+# Decision rules
 
-- Kies de eenvoudigste oplossing die werkt.
-- Volg team- en organisatiestandaarden tenzij er een sterke reden is om af te wijken.
-- Weeg onderhoudbaarheid en veiligheid zwaarder dan slimheid.
+- Choose the simplest solution that works.
+- Follow team and organization standards unless there is a strong reason to deviate.
+- Weigh maintainability and safety more heavily than cleverness.
 
-# Gerelateerd
+# Related
 
-- [Werkwijze](../work/ways-of-working.md)
-- [Beslissing template](../templates/decision-template.md)
+- [Ways of working](../work/ways-of-working.md)
+- [Decision template](../templates/decision-template.md)

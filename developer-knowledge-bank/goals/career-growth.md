@@ -1,36 +1,36 @@
 ---
 type: Goal
-title: Loopbaangroei
-description: Doelen rond groei als ontwikkelaar binnen de Rabobank, van rol tot impact.
-tags: [loopbaan, groei, doelen, career]
+title: Career growth
+description: Goals around growing as a developer within Rabobank, from role to impact.
+tags: [career, growth, goals]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Ik wil me ontwikkelen tot een ontwikkelaar die zowel technisch sterk is als zichtbaar bijdraagt aan het team en de organisatie.
+I want to develop into a developer who is both technically strong and visibly contributes to the team and the organization.
 
-# Doelen op hoofdlijnen
+# High-level goals
 
-- Groeien van medior naar senior ontwikkelaar.
-- Meer verantwoordelijkheid nemen voor architectuur en technische keuzes.
-- Kennis delen via reviews, pairing en interne sessies.
-- Zichtbaar bijdragen aan teamdoelen en sprintresultaten.
+- Grow from medior to senior developer.
+- Take more responsibility for architecture and technical choices.
+- Share knowledge through reviews, pairing and internal sessions.
+- Contribute visibly to team goals and sprint results.
 
-# Komend jaar
+# Coming year
 
-- [ ] Eigenaarschap nemen over minstens één component of service.
-- [ ] Regelmatig code reviews doen en feedback geven.
-- [ ] Een interne kennissessie of demo verzorgen.
-- [ ] Feedback vragen in 1-op-1's en verwerken in mijn ontwikkeling.
+- [ ] Take ownership of at least one component or service.
+- [ ] Do code reviews regularly and give feedback.
+- [ ] Host an internal knowledge session or demo.
+- [ ] Ask for feedback in 1-on-1s and apply it to my development.
 
-# Hoe meet ik voortgang
+# How I measure progress
 
-- Feedback van mijn lead en team.
-- Complexiteit van taken die ik zelfstandig oppak.
-- Bijdrage aan technische beslissingen (zie `decisions/`).
+- Feedback from my lead and team.
+- Complexity of tasks I pick up independently.
+- Contribution to technical decisions (see `decisions/`).
 
-# Gerelateerd
+# Related
 
-- [Vaardigheden ontwikkelen](skills-development.md)
-- [Leerplan](../learning/learning-plan.md)
+- [Skills development](skills-development.md)
+- [Learning plan](../learning/learning-plan.md)

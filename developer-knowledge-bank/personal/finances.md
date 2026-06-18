@@ -1,31 +1,31 @@
 ---
 type: Personal
-title: Financiën
-description: Persoonlijke financiële rust, overzicht en doelen op hoofdlijnen.
-tags: [financiën, rust, doelen, persoonlijk]
+title: Finances
+description: Personal financial calm, overview and high-level goals.
+tags: [finances, calm, goals, personal]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Uitgangspunt
+# Principle
 
-Financiële rust geeft ruimte om met focus te werken en goede keuzes te maken. Houd dit overzicht bewust algemeen; zet hier geen rekeningnummers, wachtwoorden of gevoelige gegevens in.
+Financial calm gives room to work with focus and make good choices. Keep this overview deliberately general; don't put account numbers, passwords or sensitive data here.
 
-# Doelen op hoofdlijnen
+# High-level goals
 
-- Buffer voor onverwachte uitgaven.
-- Bewust sparen voor doelen op de lange termijn.
-- Pensioen en verzekeringen periodiek nalopen.
+- A buffer for unexpected expenses.
+- Deliberately saving for long-term goals.
+- Periodically review pension and insurance.
 
-# Vaste momenten
+# Fixed moments
 
-- Maandelijks: kort overzicht van inkomsten en uitgaven.
-- Jaarlijks: doelen en verzekeringen herzien.
+- Monthly: a short overview of income and expenses.
+- Yearly: review goals and insurance.
 
-# Aandachtspunten
+# Points of attention
 
 - 
 
-# Gerelateerd
+# Related
 
-- [Waarden](values.md)
-- [Reflectievragen](reflection-questions.md)
+- [Values](values.md)
+- [Reflection questions](reflection-questions.md)

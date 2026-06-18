@@ -1,6 +1,6 @@
 # Learning
 
-* [Leerplan](learning-plan.md) - mijn persoonlijke leerpad en prioriteiten.
-* [Cloud en Azure](cloud-and-azure.md) - cloudfundamentals en Azure-diensten.
-* [Backend-ontwikkeling](backend-development.md) - API's, services en datalagen.
-* [Veilig coderen](secure-coding.md) - OWASP-bewustzijn en veilige patronen.
+* [Learning plan](learning-plan.md) - my personal learning path and priorities.
+* [Cloud and Azure](cloud-and-azure.md) - cloud fundamentals and Azure services.
+* [Backend development](backend-development.md) - APIs, services and data layers.
+* [Secure coding](secure-coding.md) - OWASP awareness and safe patterns.

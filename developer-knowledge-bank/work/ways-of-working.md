@@ -1,43 +1,43 @@
 ---
 type: Context
-title: Werkwijze
-description: "Hoe ons team werkt: agile ritme, reviews, kwaliteitsafspraken en samenwerking."
-tags: [werkwijze, agile, scrum, reviews, definition-of-done]
+title: Ways of working
+description: "How our team works: agile rhythm, reviews, quality agreements and collaboration."
+tags: [ways-of-working, agile, scrum, reviews, definition-of-done]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Agile ritme
+# Agile rhythm
 
-- **Sprintlengte**: 
-- **Daily standup**: tijd en vorm.
-- **Refinement**: wanneer en hoe.
-- **Sprint review en retro**: wanneer.
+- **Sprint length**: 
+- **Daily standup**: time and format.
+- **Refinement**: when and how.
+- **Sprint review and retro**: when.
 
 # Definition of Ready
 
-Een story is klaar om op te pakken als:
+A story is ready to pick up when:
 
-- De acceptatiecriteria duidelijk zijn.
-- Afhankelijkheden bekend zijn.
-- De story klein genoeg is voor één sprint.
+- The acceptance criteria are clear.
+- Dependencies are known.
+- The story is small enough for one sprint.
 
 # Definition of Done
 
-Werk is af als:
+Work is done when:
 
-- [ ] Code is gereviewd en goedgekeurd.
-- [ ] Tests zijn toegevoegd en groen.
-- [ ] CI/CD-pijplijn slaagt.
-- [ ] Documentatie is bijgewerkt waar nodig.
-- [ ] Security- en kwaliteitschecks zijn doorlopen.
+- [ ] Code is reviewed and approved.
+- [ ] Tests are added and green.
+- [ ] The CI/CD pipeline passes.
+- [ ] Documentation is updated where needed.
+- [ ] Security and quality checks have been completed.
 
 # Code reviews
 
-- Geef opbouwende, concrete feedback.
-- Houd PR's klein en gefocust.
-- Reageer tijdig op review-opmerkingen.
+- Give constructive, concrete feedback.
+- Keep PRs small and focused.
+- Respond to review comments promptly.
 
-# Gerelateerd
+# Related
 
-- [Sprintritme](../routines/sprint-ritme.md)
-- [Technische beslissingen](../decisions/technical-decisions.md)
+- [Sprint rhythm](../routines/sprint-rhythm.md)
+- [Technical decisions](../decisions/technical-decisions.md)

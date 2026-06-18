@@ -1,37 +1,37 @@
 ---
 type: Template
 title: Project brief template
-description: Template voor een korte beschrijving van een nieuw project of taak.
-tags: [template, project, werk]
+description: Template for a short description of a new project or task.
+tags: [template, project, work]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Project: <naam>
+# Project: <name>
 
-## Doel
+## Goal
 
-Wat willen we bereiken en waarom?
+What do we want to achieve and why?
 
-## Mijn rol
+## My role
 
-Wat is mijn bijdrage?
+What is my contribution?
 
 ## Scope
 
 - In scope:
-- Buiten scope:
+- Out of scope:
 
-## Belangrijkste taken
+## Key tasks
 
 1. 
 2. 
 3. 
 
-## Afhankelijkheden
+## Dependencies
 
 - 
 
-## Risico's
+## Risks
 
 - 
 

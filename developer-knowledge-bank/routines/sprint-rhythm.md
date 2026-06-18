@@ -1,29 +1,29 @@
 ---
 type: Routine
-title: Sprintritme
-description: Vaste momenten en gewoonten binnen een sprint.
+title: Sprint rhythm
+description: Fixed moments and habits within a sprint.
 tags: [routine, sprint, agile, scrum]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Begin van de sprint
+# Start of the sprint
 
-- Sprint planning: doel en commitment helder.
-- Mijn stories begrijpen en eventuele vragen stellen.
+- Sprint planning: goal and commitment clear.
+- Understand my stories and ask any questions.
 
-# Tijdens de sprint
+# During the sprint
 
-- Dagelijkse standup: voortgang en blockers delen.
-- Refinement: meedenken over komende stories.
-- Werk in kleine, reviewbare stappen.
+- Daily standup: share progress and blockers.
+- Refinement: think along about upcoming stories.
+- Work in small, reviewable steps.
 
-# Einde van de sprint
+# End of the sprint
 
-- Sprint review: opgeleverd werk demonstreren.
-- Retrospective: wat ging goed, wat kan beter?
-- Mijn aantekeningen bijwerken in `work/current-projects.md`.
+- Sprint review: demonstrate delivered work.
+- Retrospective: what went well, what can be better?
+- Update my notes in `work/current-projects.md`.
 
-# Gerelateerd
+# Related
 
-- [Werkwijze](../work/ways-of-working.md)
-- [Huidige projecten](../work/current-projects.md)
+- [Ways of working](../work/ways-of-working.md)
+- [Current projects](../work/current-projects.md)

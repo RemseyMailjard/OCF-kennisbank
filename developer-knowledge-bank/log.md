@@ -1,6 +1,6 @@
 # Root Update Log
 
 ## 2026-06-18
-* **Creation**: Eerste versie van de generieke developer-kennisbundel aangemaakt.
-* **Creation**: Structuur toegevoegd voor goals, work, learning, decisions, routines, personal, agents, templates en references.
-* **Update**: Inhoud afgestemd op een gemiddelde ontwikkelaar in loondienst bij de Rabobank, inclusief ruimte voor persoonlijk leven.
+* **Creation**: Created the first version of the generic developer knowledge bank.
+* **Creation**: Added structure for goals, work, learning, decisions, routines, personal, agents, templates and references.
+* **Update**: Tailored content to an average employed Rabobank developer, including room for personal life.

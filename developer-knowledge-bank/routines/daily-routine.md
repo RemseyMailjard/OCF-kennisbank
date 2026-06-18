@@ -1,36 +1,36 @@
 ---
 type: Routine
-title: Dagritme
-description: Hoe ik mijn werkdag indeel voor focus, samenwerking en herstel.
-tags: [routine, dagritme, focus, planning]
+title: Daily routine
+description: How I structure my working day for focus, collaboration and recovery.
+tags: [routine, daily-routine, focus, planning]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Ochtend
+# Morning
 
-- Korte planning: wat zijn vandaag de 1-3 belangrijkste taken?
-- Standup met het team.
-- Diep werk in een blok zonder onderbrekingen.
+- Short planning: what are today's 1-3 most important tasks?
+- Standup with the team.
+- Deep work in a block without interruptions.
 
-# Middag
+# Afternoon
 
-- Samenwerken: reviews, pairing, overleg.
-- Kleinere taken en e-mail in een vast blok.
-- Pauze en even bewegen.
+- Collaboration: reviews, pairing, discussions.
+- Smaller tasks and email in a fixed block.
+- Break and a bit of movement.
 
-# Einde van de dag
+# End of the day
 
-- Korte afronding: wat is af, wat blijft liggen?
-- Inbox legen naar de juiste plek.
-- Bewust stoppen en loskomen van werk.
+- Short wrap-up: what is done, what remains?
+- Empty the inbox to the right place.
+- Stop deliberately and disconnect from work.
 
-# Principes
+# Principles
 
-- Belangrijkste werk eerst, niet de inbox.
-- Vergaderingen bundelen waar mogelijk.
-- Pauzes nemen om scherp te blijven.
+- Most important work first, not the inbox.
+- Batch meetings where possible.
+- Take breaks to stay sharp.
 
-# Gerelateerd
+# Related
 
-- [Werk-privébalans](../goals/work-life-balance.md)
-- [Wekelijkse review](weekly-review.md)
+- [Work-life balance](../goals/work-life-balance.md)
+- [Weekly review](weekly-review.md)

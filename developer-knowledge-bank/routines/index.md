@@ -1,5 +1,5 @@
 # Routines
 
-* [Dagritme](daily-routine.md) - hoe ik mijn werkdag indeel.
-* [Sprintritme](sprint-ritme.md) - vaste momenten binnen een sprint.
-* [Wekelijkse review](weekly-review.md) - wekelijks terugkijken en plannen.
+* [Daily routine](daily-routine.md) - how I structure my working day.
+* [Sprint rhythm](sprint-rhythm.md) - fixed moments within a sprint.
+* [Weekly review](weekly-review.md) - weekly looking back and planning.

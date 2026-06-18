@@ -1,6 +1,6 @@
 # Work
 
-* [Huidige projecten](current-projects.md) - waar ik nu aan werk.
-* [Team en stakeholders](team-and-stakeholders.md) - met wie ik samenwerk.
-* [Tech-stack](tech-stack.md) - talen, frameworks en tools die ik gebruik.
-* [Werkwijze](ways-of-working.md) - hoe ons team werkt (agile, reviews, definition of done).
+* [Current projects](current-projects.md) - what I'm working on now.
+* [Team and stakeholders](team-and-stakeholders.md) - who I work with.
+* [Tech stack](tech-stack.md) - languages, frameworks and tools I use.
+* [Ways of working](ways-of-working.md) - how our team works (agile, reviews, definition of done).

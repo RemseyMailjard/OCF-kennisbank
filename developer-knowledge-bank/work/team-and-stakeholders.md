@@ -1,34 +1,34 @@
 ---
 type: Context
-title: Team en stakeholders
-description: De mensen met wie ik samenwerk en hun rol en verwachtingen.
-tags: [team, stakeholders, samenwerking]
+title: Team and stakeholders
+description: The people I work with and their roles and expectations.
+tags: [team, stakeholders, collaboration]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Mijn team
+# My team
 
-| Rol | Wie | Waar samenwerken |
+| Role | Who | Where we collaborate |
 |---|---|---|
 | Team lead / EM | | |
 | Product owner | | |
 | Scrum master | | |
-| Mede-ontwikkelaars | | |
+| Fellow developers | | |
 | Tester / QA | | |
 
-# Stakeholders buiten het team
+# Stakeholders outside the team
 
-- **Architecten**: voor technische richting en standaarden.
-- **Security / compliance**: voor veilige en conforme oplossingen.
-- **Andere teams**: afhankelijkheden en gedeelde services.
+- **Architects**: for technical direction and standards.
+- **Security / compliance**: for safe and compliant solutions.
+- **Other teams**: dependencies and shared services.
 
-# Verwachtingen
+# Expectations
 
-- Wat verwacht mijn lead van mij?
-- Wat verwacht de product owner qua oplevering?
-- Hoe en wanneer communiceer ik voortgang?
+- What does my lead expect from me?
+- What does the product owner expect in terms of delivery?
+- How and when do I communicate progress?
 
-# Gerelateerd
+# Related
 
-- [Werkwijze](ways-of-working.md)
-- [1-op-1 template](../templates/one-on-one-template.md)
+- [Ways of working](ways-of-working.md)
+- [1-on-1 template](../templates/one-on-one-template.md)

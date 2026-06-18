@@ -1,34 +1,34 @@
 ---
 type: Learning Note
-title: Backend-ontwikkeling
-description: Leerdoelen en aantekeningen rond API's, services en datalagen.
-tags: [backend, api, services, leren]
+title: Backend development
+description: Learning goals and notes around APIs, services and data layers.
+tags: [backend, api, services, learning]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Sterke backend-vaardigheden zijn de kern van veel ontwikkelwerk: betrouwbare services, schone API's en goede datamodellen.
+Strong backend skills are the core of much development work: reliable services, clean APIs and good data models.
 
-# Leerdoelen
+# Learning goals
 
-- REST- en/of gRPC-API's ontwerpen.
-- Lagen scheiden (domein, applicatie, infrastructuur).
-- Datatoegang en transacties.
-- Foutafhandeling en logging.
-- Testbaarheid: unit-, integratie- en contracttests.
+- Design REST and/or gRPC APIs.
+- Separate layers (domain, application, infrastructure).
+- Data access and transactions.
+- Error handling and logging.
+- Testability: unit, integration and contract tests.
 
-# Aantekeningen
+# Notes
 
 - 
 
-# Patronen om te kennen
+# Patterns to know
 
 - Dependency injection.
-- Repository / service-laag.
-- Idempotentie bij retries.
+- Repository / service layer.
+- Idempotency on retries.
 
-# Gerelateerd
+# Related
 
-- [Leerplan](learning-plan.md)
-- [Veilig coderen](secure-coding.md)
+- [Learning plan](learning-plan.md)
+- [Secure coding](secure-coding.md)

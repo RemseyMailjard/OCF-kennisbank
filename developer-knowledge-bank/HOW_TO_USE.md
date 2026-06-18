@@ -1,60 +1,60 @@
 ---
 type: Guide
-title: Hoe gebruik je deze developer-kennisbundel?
-description: Praktische handleiding om deze generieke developer-kennisbundel dagelijks te gebruiken voor werk, leren, beslissingen en persoonlijk leven.
-tags: [okf, handleiding, kennisbank, developer, productiviteit]
+title: How to use this developer knowledge bank?
+description: Practical guide to using this generic developer knowledge bank daily for work, learning, decisions and personal life.
+tags: [okf, guide, knowledge-bank, developer, productivity]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Hoe gebruik je deze developer-kennisbundel?
+# How to use this developer knowledge bank?
 
-Deze map is jouw persoonlijke kennisbasis als ontwikkelaar. Elk `.md`-bestand beschrijft één concept: een doel, project, routine, beslissing, leerpad of persoonlijk inzicht.
+This folder is your personal knowledge base as a developer. Each `.md` file describes one concept: a goal, project, routine, decision, learning path or personal insight.
 
-Zie de bundel niet als "een map met documenten", maar als jouw **persoonlijke besturingssysteem** voor werk, groei, keuzes en balans.
+Don't think of the bank as "a folder with documents", but as your **personal operating system** for work, growth, choices and balance.
 
-# De kern: Capture, Curate, Consult, Create
+# The core: Capture, Curate, Consult, Create
 
 ```text
-1. Capture  → snel vastleggen
-2. Curate   → ordenen en aanscherpen
-3. Consult  → raadplegen bij keuzes
-4. Create   → gebruiken om output te maken
+1. Capture  → record quickly
+2. Curate   → organize and refine
+3. Consult  → review when making choices
+4. Create   → use to produce output
 ```
 
-- **Capture**: leg taken, inzichten, bugs en ideeën direct vast in [inbox.md](inbox.md), zonder ze perfect te maken.
-- **Curate**: werk losse notities later uit tot nette concepten met frontmatter en duidelijke koppen.
-- **Consult**: gebruik je bundel als spiegel bij keuzes (past dit bij mijn doelen, team, werkwijze?).
-- **Create**: gebruik je kennis als input voor Copilot of ChatGPT bij standups, documentatie of e-mails.
+- **Capture**: record tasks, insights, bugs and ideas straight into [inbox.md](inbox.md), without making them perfect.
+- **Curate**: later work loose notes into clean concepts with frontmatter and clear headings.
+- **Consult**: use your bank as a mirror when making choices (does this fit my goals, team, ways of working?).
+- **Create**: use your knowledge as input for Copilot or ChatGPT for standups, documentation or emails.
 
-# Aanbevolen workflow
+# Recommended workflow
 
-1. **Dagelijks**: leg losse notities vast in `inbox.md`; werk ze op een rustig moment uit.
-2. **Per sprint**: werk `work/current-projects.md` en `decisions/` bij.
-3. **Wekelijks**: doe een review met het template in `templates/weekly-review-template.md`.
-4. **Per kwartaal**: herzie je `goals/` en `learning/learning-plan.md`.
-5. **Bij AI-gebruik**: laat een agent eerst relevante bestanden lezen voordat die output maakt.
+1. **Daily**: capture loose notes in `inbox.md`; work them out at a quiet moment.
+2. **Per sprint**: update `work/current-projects.md` and `decisions/`.
+3. **Weekly**: do a review with the template in `templates/weekly-review-template.md`.
+4. **Per quarter**: revisit your `goals/` and `learning/learning-plan.md`.
+5. **When using AI**: let an agent read the relevant files first before it produces output.
 
-# Waar zet je wat?
+# Where do you put what?
 
-| Situatie | Waar zet je het? |
+| Situation | Where do you put it? |
 |---|---|
-| Nieuwe taak of bug | `inbox.md` of `work/current-projects.md` |
-| Technische keuze | `decisions/technical-decisions.md` |
-| Iets nieuws geleerd | `learning/` |
-| Inzicht over energie/focus | `personal/health.md` |
-| Loopbaanwens | `goals/career-growth.md` |
-| 1-op-1 met je lead | `templates/one-on-one-template.md` |
-| Reflectie op de week | `log.md` of `personal/reflection-questions.md` |
+| New task or bug | `inbox.md` or `work/current-projects.md` |
+| Technical choice | `decisions/technical-decisions.md` |
+| Learned something new | `learning/` |
+| Insight about energy/focus | `personal/health.md` |
+| Career ambition | `goals/career-growth.md` |
+| 1-on-1 with your lead | `templates/one-on-one-template.md` |
+| Reflection on the week | `log.md` or `personal/reflection-questions.md` |
 
-# Minimale frontmatter
+# Minimal frontmatter
 
-Elk conceptbestand bevat minimaal:
+Every concept file contains at least:
 
 ```yaml
 ---
 type: Concept
-title: Titel
-description: Korte omschrijving
+title: Title
+description: Short description
 tags: [tag1, tag2]
 timestamp: 2026-06-18T00:00:00Z
 ---
@@ -62,4 +62,4 @@ timestamp: 2026-06-18T00:00:00Z
 
 # Tip
 
-Gebruik korte, duidelijke bestanden. Liever tien kleine bestanden dan één groot document.
+Use short, clear files. Ten small files are better than one large document.

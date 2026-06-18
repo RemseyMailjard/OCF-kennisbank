@@ -1,4 +1,4 @@
 # Agents
 
-* [Assistant instructions](assistant-instructions.md) - basisinstructies voor een AI-assistent die deze kennisbundel gebruikt.
-* [Standup helper prompt](standup-helper-prompt.md) - prompt om snel een standup-update te maken.
+* [Assistant instructions](assistant-instructions.md) - base instructions for an AI assistant that uses this knowledge bank.
+* [Standup helper prompt](standup-helper-prompt.md) - prompt to quickly create a standup update.

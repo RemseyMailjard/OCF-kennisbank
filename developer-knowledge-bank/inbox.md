@@ -1,13 +1,13 @@
 ---
 type: Inbox
 title: Inbox
-description: Snelle, losse notities die later worden uitgewerkt naar gestructureerde OKF-notities.
+description: Quick, loose notes that are later worked out into structured OKF notes.
 tags: [inbox, capture]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
 # Inbox
 
-Leg hier zonder nadenken taken, ideeën, bugs en inzichten vast. Werk ze later uit naar de juiste map.
+Capture tasks, ideas, bugs and insights here without overthinking. Work them out into the right folder later.
 
-## Notities
+## Notes

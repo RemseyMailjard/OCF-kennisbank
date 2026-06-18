@@ -1,31 +1,31 @@
 ---
 type: Personal Compass
-title: Waarden
-description: Persoonlijke kernwaarden en kompasvragen voor keuzes in werk en leven.
-tags: [waarden, kompas, reflectie]
+title: Values
+description: Personal core values and compass questions for choices in work and life.
+tags: [values, compass, reflection]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Kernwaarden
+# Core values
 
-- Betrouwbaarheid
-- Eerlijkheid
-- Voortdurende ontwikkeling
-- Samenwerking
-- Kwaliteit en vakmanschap
-- Rust en balans
-- Gezondheid
-- Plezier
+- Reliability
+- Honesty
+- Continuous development
+- Collaboration
+- Quality and craftsmanship
+- Calm and balance
+- Health
+- Enjoyment
 
-# Kompasvragen
+# Compass questions
 
-- Past deze keuze bij wie ik wil zijn, of alleen bij het moment?
-- Draagt dit bij aan mijn ontwikkeling op de lange termijn?
-- Houd ik hiermee een gezonde balans tussen werk en privé?
-- Ben ik eerlijk over wat dit mij kost en oplevert?
-- Help ik hiermee ook de mensen om me heen?
+- Does this choice fit who I want to be, or only the moment?
+- Does this contribute to my long-term development?
+- Does this keep a healthy balance between work and personal life?
+- Am I honest about what this costs and gains me?
+- Does this also help the people around me?
 
-# Gerelateerd
+# Related
 
-- [Loopbaanbeslissingen](../decisions/career-decisions.md)
-- [Reflectievragen](reflection-questions.md)
+- [Career decisions](../decisions/career-decisions.md)
+- [Reflection questions](reflection-questions.md)

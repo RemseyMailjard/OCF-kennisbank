@@ -1,32 +1,32 @@
 ---
 type: Template
-title: Beslissing template
-description: Lichte ADR-stijl template voor het vastleggen van een technische beslissing.
-tags: [template, beslissing, adr, technisch]
+title: Decision template
+description: Light ADR-style template for recording a technical decision.
+tags: [template, decision, adr, technical]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Beslissing: <titel>
+# Decision: <title>
 
-- **Datum**: 
-- **Status**: voorgesteld / geaccepteerd / vervangen
+- **Date**: 
+- **Status**: proposed / accepted / superseded
 
 ## Context
 
-Welk probleem of welke vraag speelt er?
+What problem or question is at play?
 
-## Overwogen opties
+## Considered options
 
 1. 
 2. 
 3. 
 
-## Besluit
+## Decision
 
-Wat is gekozen en waarom?
+What was chosen and why?
 
-## Gevolgen
+## Consequences
 
-- Voordelen:
-- Nadelen:
-- Risico's:
+- Benefits:
+- Drawbacks:
+- Risks:

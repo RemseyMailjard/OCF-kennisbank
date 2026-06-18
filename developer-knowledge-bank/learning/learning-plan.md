@@ -1,40 +1,40 @@
 ---
 type: Learning Plan
-title: Leerplan
-description: Mijn persoonlijke leerpad met prioriteiten, bronnen en voortgang.
-tags: [leren, leerplan, ontwikkeling]
+title: Learning plan
+description: My personal learning path with priorities, resources and progress.
+tags: [learning, learning-plan, development]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Doel van mijn leerplan
+# Goal of my learning plan
 
-Gericht groeien in de vaardigheden die mijn werk en loopbaan vooruit helpen, zonder mezelf te overvragen.
+Grow deliberately in the skills that move my work and career forward, without overloading myself.
 
-# Prioriteiten dit kwartaal
+# Priorities this quarter
 
 1. 
 2. 
 3. 
 
-# Leerlijnen
+# Learning tracks
 
-- [Cloud en Azure](cloud-and-azure.md)
-- [Backend-ontwikkeling](backend-development.md)
-- [Veilig coderen](secure-coding.md)
+- [Cloud and Azure](cloud-and-azure.md)
+- [Backend development](backend-development.md)
+- [Secure coding](secure-coding.md)
 
-# Bronnen
+# Resources
 
-- Interne trainingen en sessies.
-- Microsoft Learn / officiële documentatie.
-- Boeken, cursussen en hands-on projecten.
+- Internal trainings and sessions.
+- Microsoft Learn / official documentation.
+- Books, courses and hands-on projects.
 
-# Voortgang bijhouden
+# Tracking progress
 
-| Onderwerp | Status | Notitie |
+| Topic | Status | Note |
 |---|---|---|
 | | | |
 
-# Gerelateerd
+# Related
 
-- [Vaardigheden ontwikkelen](../goals/skills-development.md)
-- [Loopbaangroei](../goals/career-growth.md)
+- [Skills development](../goals/skills-development.md)
+- [Career growth](../goals/career-growth.md)

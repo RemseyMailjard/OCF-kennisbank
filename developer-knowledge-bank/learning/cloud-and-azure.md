@@ -1,33 +1,33 @@
 ---
 type: Learning Note
-title: Cloud en Azure
-description: Aantekeningen en leerdoelen rond cloudfundamentals en Azure-diensten.
-tags: [cloud, azure, leren]
+title: Cloud and Azure
+description: Notes and learning goals around cloud fundamentals and Azure services.
+tags: [cloud, azure, learning]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Veel van onze applicaties draaien (deels) in de cloud. Begrip van cloudfundamentals helpt me betere keuzes te maken.
+Many of our applications run (partly) in the cloud. Understanding cloud fundamentals helps me make better choices.
 
-# Leerdoelen
+# Learning goals
 
-- Cloudbasics: regio's, beschikbaarheid, schaalbaarheid.
-- Compute-opties (App Service, Functions, containers).
-- Opslag en databases in de cloud.
-- Identiteit en toegang (managed identities, RBAC).
-- Monitoring en logging.
+- Cloud basics: regions, availability, scalability.
+- Compute options (App Service, Functions, containers).
+- Storage and databases in the cloud.
+- Identity and access (managed identities, RBAC).
+- Monitoring and logging.
 
-# Aantekeningen
+# Notes
 
 - 
 
-# Handige bronnen
+# Useful resources
 
 - Microsoft Learn.
-- Interne Azure-richtlijnen en standaarden.
+- Internal Azure guidelines and standards.
 
-# Gerelateerd
+# Related
 
-- [Leerplan](learning-plan.md)
-- [Tech-stack](../work/tech-stack.md)
+- [Learning plan](learning-plan.md)
+- [Tech stack](../work/tech-stack.md)

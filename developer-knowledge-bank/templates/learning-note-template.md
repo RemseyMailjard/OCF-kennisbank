@@ -1,31 +1,31 @@
 ---
 type: Template
 title: Learning note template
-description: Template voor een korte aantekening van iets nieuws dat je leert.
-tags: [template, leren, aantekening]
+description: Template for a short note of something new you learn.
+tags: [template, learning, note]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Onderwerp: <titel>
+# Topic: <title>
 
-## Wat heb ik geleerd
+## What I learned
 
-Korte samenvatting in eigen woorden.
+Short summary in my own words.
 
-## Waarom is dit nuttig
+## Why this is useful
 
-Waar kan ik dit toepassen?
+Where can I apply this?
 
-## Voorbeeld
+## Example
 
 ```text
-Code- of conceptvoorbeeld.
+Code or concept example.
 ```
 
-## Vervolgvragen
+## Follow-up questions
 
 - 
 
-## Bronnen
+## Resources
 
 - 

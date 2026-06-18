@@ -1,38 +1,38 @@
 ---
 type: Template
 title: Weekly review template
-description: Template voor wekelijkse reflectie en planning.
-tags: [template, reflectie, planning]
+description: Template for weekly reflection and planning.
+tags: [template, reflection, planning]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Weekreview — YYYY-WW
+# Weekly review — YYYY-WW
 
-## Resultaten
-
-- 
-
-## Energiegevers
+## Results
 
 - 
 
-## Energielekken
+## Energy givers
 
 - 
 
-## Belangrijke beslissingen
+## Energy drains
 
 - 
 
-## Kennis om vast te leggen
+## Important decisions
 
 - 
 
-## Werk-privébalans
+## Knowledge to capture
 
 - 
 
-## Focus volgende week
+## Work-life balance
+
+- 
+
+## Focus next week
 
 1. 
 2. 

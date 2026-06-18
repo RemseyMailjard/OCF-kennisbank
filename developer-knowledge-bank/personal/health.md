@@ -1,40 +1,40 @@
 ---
 type: Personal
-title: Gezondheid
-description: Persoonlijke aantekeningen over energie, slaap, beweging en herstel.
-tags: [gezondheid, energie, slaap, beweging]
+title: Health
+description: Personal notes about energy, sleep, movement and recovery.
+tags: [health, energy, sleep, movement]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Wat mij energie geeft
+# What gives me energy
 
 - 
 
-# Wat mijn energie kost
+# What costs my energy
 
 - 
 
-# Slaap
+# Sleep
 
-- Gewenst ritme: 
-- Wat helpt me goed slapen: 
+- Desired rhythm: 
+- What helps me sleep well: 
 
-# Beweging
+# Movement
 
-- Hoe ik beweeg (wandelen, sport, fietsen): 
-- Hoe vaak: 
+- How I move (walking, sports, cycling): 
+- How often: 
 
-# Herstel
+# Recovery
 
-- Pauzes overdag.
-- Vrije avonden en weekenden.
-- Vakanties en hersteldagen.
+- Breaks during the day.
+- Free evenings and weekends.
+- Vacations and recovery days.
 
-# Signalen dat ik moet bijsturen
+# Signals that I need to adjust
 
 - 
 
-# Gerelateerd
+# Related
 
-- [Gezondheid en energie](../goals/health-and-energy.md)
-- [Werk-privébalans](../goals/work-life-balance.md)
+- [Health and energy](../goals/health-and-energy.md)
+- [Work-life balance](../goals/work-life-balance.md)

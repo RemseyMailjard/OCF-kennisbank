@@ -1,30 +1,30 @@
 ---
 type: Personal
-title: Hobby's en ontspanning
-description: Activiteiten die me energie, plezier en ontspanning geven buiten werk.
-tags: [hobby's, ontspanning, plezier, persoonlijk]
+title: Hobbies and relaxation
+description: Activities that give me energy, enjoyment and relaxation outside work.
+tags: [hobbies, relaxation, enjoyment, personal]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Wat ik graag doe
+# What I like to do
 
 - 
 
-# Waarom dit belangrijk is
+# Why this matters
 
-Ontspanning en plezier buiten werk helpen me opladen en houden me creatief en uitgerust.
+Relaxation and enjoyment outside work help me recharge and keep me creative and rested.
 
-# Wat ik wil vasthouden
+# What I want to hold on to
 
-- Vaste tijd voor hobby's in mijn week.
-- Af en toe iets nieuws proberen.
-- Beweging en buiten zijn combineren met ontspanning.
+- Fixed time for hobbies in my week.
+- Trying something new now and then.
+- Combining movement and being outdoors with relaxation.
 
-# Ideeën / verlanglijst
+# Ideas / wishlist
 
 - 
 
-# Gerelateerd
+# Related
 
-- [Gezondheid](health.md)
-- [Werk-privébalans](../goals/work-life-balance.md)
+- [Health](health.md)
+- [Work-life balance](../goals/work-life-balance.md)

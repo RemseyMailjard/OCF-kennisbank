@@ -1,33 +1,33 @@
 ---
 type: Work Overview
-title: Huidige projecten
-description: Overzicht van projecten en taken waar ik op dit moment aan werk.
-tags: [werk, projecten, taken]
+title: Current projects
+description: Overview of projects and tasks I'm currently working on.
+tags: [work, projects, tasks]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Actieve projecten
+# Active projects
 
-## Project: <naam>
+## Project: <name>
 
-- **Doel**: 
-- **Mijn rol**: 
+- **Goal**: 
+- **My role**: 
 - **Status**: 
-- **Belangrijkste taken**:
+- **Key tasks**:
   - 
-- **Risico's of blockers**:
+- **Risks or blockers**:
   - 
-- **Volgende stap**: 
+- **Next step**: 
 
-# Backlog / binnenkort
+# Backlog / upcoming
 
 - 
 
-# Recent afgerond
+# Recently completed
 
 - 
 
-# Gerelateerd
+# Related
 
-- [Team en stakeholders](team-and-stakeholders.md)
-- [Technische beslissingen](../decisions/technical-decisions.md)
+- [Team and stakeholders](team-and-stakeholders.md)
+- [Technical decisions](../decisions/technical-decisions.md)

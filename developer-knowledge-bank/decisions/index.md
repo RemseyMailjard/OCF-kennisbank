@@ -1,4 +1,4 @@
 # Decisions
 
-* [Technische beslissingen](technical-decisions.md) - belangrijke keuzes in code en architectuur.
-* [Loopbaanbeslissingen](career-decisions.md) - keuzes rond rol, groei en ontwikkeling.
+* [Technical decisions](technical-decisions.md) - important choices in code and architecture.
+* [Career decisions](career-decisions.md) - choices around role, growth and development.

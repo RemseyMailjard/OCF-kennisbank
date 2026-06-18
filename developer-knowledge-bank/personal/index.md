@@ -1,8 +1,8 @@
 # Personal
 
-* [Waarden](values.md) - mijn kernwaarden en kompasvragen.
-* [Gezondheid](health.md) - energie, slaap, beweging en herstel.
-* [Financiën](finances.md) - persoonlijke financiële rust en doelen.
-* [Relaties en gezin](relationships.md) - tijd en aandacht voor mensen om me heen.
-* [Hobby's en ontspanning](hobbies.md) - wat me energie en plezier geeft.
-* [Reflectievragen](reflection-questions.md) - vragen om regelmatig bij stil te staan.
+* [Values](values.md) - my core values and compass questions.
+* [Health](health.md) - energy, sleep, movement and recovery.
+* [Finances](finances.md) - personal financial calm and goals.
+* [Relationships and family](relationships.md) - time and attention for the people around me.
+* [Hobbies and relaxation](hobbies.md) - what gives me energy and enjoyment.
+* [Reflection questions](reflection-questions.md) - questions to pause on regularly.

@@ -1,29 +1,29 @@
 ---
 type: Routine
-title: Wekelijkse review
-description: Vast moment om terug te kijken op de week en de volgende te plannen.
-tags: [routine, review, reflectie, planning]
+title: Weekly review
+description: A fixed moment to look back on the week and plan the next one.
+tags: [routine, review, reflection, planning]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Wanneer
+# When
 
-Een vast moment, bijvoorbeeld vrijdagmiddag, om de week af te sluiten.
+A fixed moment, for example Friday afternoon, to close out the week.
 
-# Wat ik doorloop
+# What I go through
 
-1. **Resultaten**: wat heb ik deze week afgerond?
-2. **Energie**: wat gaf en wat kostte energie?
-3. **Geleerd**: welke inzichten wil ik vastleggen?
-4. **Beslissingen**: welke keuzes heb ik gemaakt?
-5. **Volgende week**: wat zijn mijn 1-3 prioriteiten?
+1. **Results**: what did I complete this week?
+2. **Energy**: what gave and what cost energy?
+3. **Learned**: which insights do I want to capture?
+4. **Decisions**: which choices did I make?
+5. **Next week**: what are my 1-3 priorities?
 
-# Hoe vastleggen
+# How to record
 
-- Gebruik het [Weekly review template](../templates/weekly-review-template.md).
-- Noteer kort in `log.md` of `personal/reflection-questions.md`.
+- Use the [Weekly review template](../templates/weekly-review-template.md).
+- Note briefly in `log.md` or `personal/reflection-questions.md`.
 
-# Gerelateerd
+# Related
 
-- [Dagritme](daily-routine.md)
-- [Reflectievragen](../personal/reflection-questions.md)
+- [Daily routine](daily-routine.md)
+- [Reflection questions](../personal/reflection-questions.md)

@@ -1,38 +1,38 @@
 ---
 type: Context
-title: Tech-stack
-description: De talen, frameworks, tools en platformen die ik in mijn werk gebruik.
-tags: [tech-stack, tools, technologie]
+title: Tech stack
+description: The languages, frameworks, tools and platforms I use in my work.
+tags: [tech-stack, tools, technology]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Talen
+# Languages
 
 - 
 
-# Frameworks en libraries
+# Frameworks and libraries
 
 - 
 
-# Data en opslag
+# Data and storage
 
-- Databases (bijv. PostgreSQL, SQL Server, Oracle).
-- Messaging / events (bijv. Kafka, queues).
+- Databases (e.g. PostgreSQL, SQL Server, Oracle).
+- Messaging / events (e.g. Kafka, queues).
 
-# Cloud en infrastructuur
+# Cloud and infrastructure
 
-- Cloud (bijv. Azure).
-- Containers en orchestratie (bijv. Docker, Kubernetes).
+- Cloud (e.g. Azure).
+- Containers and orchestration (e.g. Docker, Kubernetes).
 
 # Tools
 
-- Versiebeheer: Git.
+- Version control: Git.
 - CI/CD: 
 - Issue tracking: 
 - IDE / editor: VS Code, IntelliJ.
 
-# Conventies
+# Conventions
 
-- Codestijl en linting.
-- Branch- en commitafspraken.
-- Definition of Done (zie [Werkwijze](ways-of-working.md)).
+- Code style and linting.
+- Branch and commit agreements.
+- Definition of Done (see [Ways of working](ways-of-working.md)).

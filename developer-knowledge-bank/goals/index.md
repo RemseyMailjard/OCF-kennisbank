@@ -1,6 +1,6 @@
 # Goals
 
-* [Loopbaangroei](career-growth.md) - groeien als ontwikkelaar binnen de Rabobank.
-* [Vaardigheden ontwikkelen](skills-development.md) - technische en soft skills uitbouwen.
-* [Werk-privébalans](work-life-balance.md) - gezonde balans tussen werk en privé.
-* [Gezondheid en energie](health-and-energy.md) - fit, uitgerust en geconcentreerd blijven.
+* [Career growth](career-growth.md) - growing as a developer within Rabobank.
+* [Skills development](skills-development.md) - building technical and soft skills.
+* [Work-life balance](work-life-balance.md) - a healthy balance between work and personal life.
+* [Health and energy](health-and-energy.md) - staying fit, rested and focused.

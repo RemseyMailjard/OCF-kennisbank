@@ -1,32 +1,32 @@
 ---
 type: Personal
-title: Relaties en gezin
-description: Bewust tijd en aandacht houden voor de mensen om me heen.
-tags: [relaties, gezin, vrienden, persoonlijk]
+title: Relationships and family
+description: Deliberately keeping time and attention for the people around me.
+tags: [relationships, family, friends, personal]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Werk is belangrijk, maar de mensen om me heen geven betekenis en steun. Ik wil daar bewust tijd en aandacht aan geven.
+Work is important, but the people around me give meaning and support. I want to deliberately give them time and attention.
 
-# Belangrijke mensen
+# Important people
 
-- Partner / gezin: 
-- Familie: 
-- Vrienden: 
+- Partner / family: 
+- Relatives: 
+- Friends: 
 
-# Wat ik wil vasthouden
+# What I want to hold on to
 
-- Vaste momenten samen zonder werk of telefoon.
-- Belangrijke data onthouden (verjaardagen, mijlpalen).
-- Bereikbaar en betrokken zijn, ook bij drukte.
+- Fixed moments together without work or phone.
+- Remember important dates (birthdays, milestones).
+- Being reachable and engaged, even when busy.
 
-# Aandachtspunten
+# Points of attention
 
 - 
 
-# Gerelateerd
+# Related
 
-- [Werk-privébalans](../goals/work-life-balance.md)
-- [Hobby's en ontspanning](hobbies.md)
+- [Work-life balance](../goals/work-life-balance.md)
+- [Hobbies and relaxation](hobbies.md)

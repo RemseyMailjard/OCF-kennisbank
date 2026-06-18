@@ -1,30 +1,30 @@
 ---
 type: Goal
-title: Gezondheid en energie
-description: Persoonlijke doelen rond fitheid, slaap, focus en herstel.
-tags: [gezondheid, energie, slaap, focus, doelen]
+title: Health and energy
+description: Personal goals around fitness, sleep, focus and recovery.
+tags: [health, energy, sleep, focus, goals]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Energie is de basis onder alles. Met goede slaap, beweging en herstel kan ik geconcentreerd en met plezier werken.
+Energy is the foundation under everything. With good sleep, movement and recovery I can work with focus and enjoyment.
 
-# Doelen
+# Goals
 
-- [ ] Regelmatig slaapritme (vaste bed- en opstaantijden).
-- [ ] Dagelijks bewegen (wandelen, sporten of fietsen).
-- [ ] Gezond eten en voldoende water drinken.
-- [ ] Bewust pauzeren tijdens werk.
-- [ ] Schermtijd 's avonds beperken.
+- [ ] Regular sleep rhythm (fixed bed and wake times).
+- [ ] Move daily (walking, sports or cycling).
+- [ ] Eat healthily and drink enough water.
+- [ ] Take deliberate breaks during work.
+- [ ] Limit screen time in the evening.
 
-# Signalen om op te letten
+# Signals to watch for
 
-- Slecht slapen of moeite met concentreren.
-- Prikkelbaarheid of weinig zin in werk.
-- Geen tijd nemen voor pauzes.
+- Poor sleep or trouble concentrating.
+- Irritability or little motivation for work.
+- Not taking time for breaks.
 
-# Gerelateerd
+# Related
 
-- [Gezondheid](../personal/health.md)
-- [Werk-privébalans](work-life-balance.md)
+- [Health](../personal/health.md)
+- [Work-life balance](work-life-balance.md)

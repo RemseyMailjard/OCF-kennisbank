@@ -1,31 +1,31 @@
 ---
 type: Personal Compass
-title: Reflectievragen
-description: Vragen om regelmatig bij stil te staan, voor werk en privé.
-tags: [reflectie, vragen, kompas]
+title: Reflection questions
+description: Questions to pause on regularly, for work and personal life.
+tags: [reflection, questions, compass]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Wekelijks
+# Weekly
 
-- Wat ging deze week goed en waar ben ik trots op?
-- Wat kostte onnodig veel energie?
-- Heb ik genoeg gepauzeerd en bewogen?
-- Wat wil ik volgende week anders doen?
+- What went well this week and what am I proud of?
+- What cost unnecessarily much energy?
+- Did I pause and move enough?
+- What do I want to do differently next week?
 
-# Maandelijks
+# Monthly
 
-- Werk ik aan dingen die er voor mij toe doen?
-- Groei ik in de richting die ik wil (zie `goals/`)?
-- Houd ik een gezonde balans tussen werk en privé?
+- Am I working on things that matter to me?
+- Am I growing in the direction I want (see `goals/`)?
+- Am I keeping a healthy balance between work and personal life?
 
-# Bij belangrijke keuzes
+# When making important choices
 
-- Past dit bij mijn waarden?
-- Wat zou ik adviseren aan een goede vriend in dezelfde situatie?
-- Hoe kijk ik hier over een jaar op terug?
+- Does this fit my values?
+- What would I advise a good friend in the same situation?
+- How will I look back on this in a year?
 
-# Gerelateerd
+# Related
 
-- [Waarden](values.md)
-- [Wekelijkse review](../routines/weekly-review.md)
+- [Values](values.md)
+- [Weekly review](../routines/weekly-review.md)

@@ -1,34 +1,34 @@
 ---
 type: Reference
-title: OKF-principes
-description: De uitgangspunten achter deze Open Knowledge Format kennisbundel.
+title: OKF principles
+description: The principles behind this Open Knowledge Format knowledge bank.
 timestamp: 2025-01-15T09:00:00
-tags: [okf, kennisbeheer, principes]
+tags: [okf, knowledge-management, principles]
 ---
 
-# Wat is OKF?
+# What is OKF?
 
-OKF (Open Knowledge Format) is een eenvoudige, open manier om persoonlijke en
-professionele kennis vast te leggen in platte Markdown-bestanden. De bundel is
-zowel voor mensen als voor AI-tools goed leesbaar.
+OKF (Open Knowledge Format) is a simple, open way to capture personal and
+professional knowledge in plain Markdown files. The bank is easy to read for
+both humans and AI tools.
 
-## Principes
+## Principles
 
-1. **Platte tekst eerst** - alles is Markdown, geen database of propriëtair formaat.
-2. **Frontmatter voor structuur** - elk inhoudelijk bestand begint met YAML
+1. **Plain text first** - everything is Markdown, no database or proprietary format.
+2. **Frontmatter for structure** - every content file starts with YAML
    frontmatter (`type`, `title`, `description`, `timestamp`, `tags`).
-3. **Onderling gelinkt** - bestanden verwijzen naar elkaar met relatieve links,
-   zodat kennis een navigeerbaar netwerk vormt.
-4. **Mappen per thema** - `goals/`, `work/`, `learning/`, `decisions/`,
-   `routines/`, `personal/`, `agents/`, `templates/` en `references/`.
-5. **Index per map** - elke map heeft een `index.md` die de inhoud ontsluit.
-6. **Klein en onderhoudbaar** - liever korte, actuele notities dan lange,
-   verouderde documenten.
+3. **Interlinked** - files reference each other with relative links,
+   so knowledge forms a navigable network.
+4. **Folders by theme** - `goals/`, `work/`, `learning/`, `decisions/`,
+   `routines/`, `personal/`, `agents/`, `templates/` and `references/`.
+5. **Index per folder** - each folder has an `index.md` that surfaces its content.
+6. **Small and maintainable** - prefer short, current notes over long,
+   outdated documents.
 
-## Waarom OKF voor een developer?
+## Why OKF for a developer?
 
-* Je houdt grip op je doelen, beslissingen en leerpad op één plek.
-* AI-assistenten kunnen jouw context gebruiken zonder dat je alles opnieuw uitlegt.
-* De bundel groeit met je mee en blijft eigendom van jou.
+* You keep a grip on your goals, decisions and learning path in one place.
+* AI assistants can use your context without you explaining everything again.
+* The bank grows with you and stays your own.
 
-Zie ook [HOW_TO_USE](../HOW_TO_USE.md) voor praktische werkwijzen.
+See also [HOW_TO_USE](../HOW_TO_USE.md) for practical ways of working.

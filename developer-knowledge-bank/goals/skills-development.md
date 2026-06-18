@@ -1,33 +1,33 @@
 ---
 type: Goal
-title: Vaardigheden ontwikkelen
-description: Technische en soft skills die ik als ontwikkelaar wil uitbouwen.
-tags: [vaardigheden, skills, leren, doelen]
+title: Skills development
+description: Technical and soft skills I want to build as a developer.
+tags: [skills, learning, goals]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Technische vaardigheden
+# Technical skills
 
-- Backend-ontwikkeling (bijv. Java/Spring Boot of C#/.NET).
-- Cloud en Azure-fundamentals.
-- Testen: unit, integratie en end-to-end.
-- CI/CD en automatisering.
-- Beveiliging en veilig coderen (OWASP-bewustzijn).
+- Backend development (e.g. Java/Spring Boot or C#/.NET).
+- Cloud and Azure fundamentals.
+- Testing: unit, integration and end-to-end.
+- CI/CD and automation.
+- Security and secure coding (OWASP awareness).
 
 # Soft skills
 
-- Helder communiceren over technische keuzes.
-- Goede code reviews geven en ontvangen.
-- Samenwerken in een agile team.
-- Kennis overdragen en presenteren.
+- Communicating clearly about technical choices.
+- Giving and receiving good code reviews.
+- Collaborating in an agile team.
+- Transferring knowledge and presenting.
 
-# Focus dit kwartaal
+# Focus this quarter
 
 1. 
 2. 
 3. 
 
-# Gerelateerd
+# Related
 
-- [Leerplan](../learning/learning-plan.md)
-- [Loopbaangroei](career-growth.md)
+- [Learning plan](../learning/learning-plan.md)
+- [Career growth](career-growth.md)

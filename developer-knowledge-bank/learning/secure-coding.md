@@ -1,36 +1,36 @@
 ---
 type: Learning Note
-title: Veilig coderen
-description: Bewustzijn van veelvoorkomende kwetsbaarheden en veilige patronen.
-tags: [security, owasp, veilig-coderen, leren]
+title: Secure coding
+description: Awareness of common vulnerabilities and safe patterns.
+tags: [security, owasp, secure-coding, learning]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Waarom
+# Why
 
-Bij een bank is veiligheid niet optioneel. Veilig coderen voorkomt kwetsbaarheden en beschermt gegevens.
+At a bank, security is not optional. Secure coding prevents vulnerabilities and protects data.
 
-# OWASP Top 10 bewustzijn
+# OWASP Top 10 awareness
 
 - Injection (SQL, command).
 - Broken access control.
-- Onveilige configuratie.
-- Kwetsbare en verouderde dependencies.
-- Onvoldoende logging en monitoring.
+- Insecure configuration.
+- Vulnerable and outdated dependencies.
+- Insufficient logging and monitoring.
 
-# Veilige gewoonten
+# Safe habits
 
-- Valideer en saneer invoer op systeemgrenzen.
-- Gebruik parameterized queries.
-- Bewaar geen secrets in code; gebruik een secrets store.
-- Pas least-privilege toe.
-- Houd dependencies up-to-date.
+- Validate and sanitize input at system boundaries.
+- Use parameterized queries.
+- Don't store secrets in code; use a secrets store.
+- Apply least privilege.
+- Keep dependencies up to date.
 
-# Aantekeningen
+# Notes
 
 - 
 
-# Gerelateerd
+# Related
 
-- [Backend-ontwikkeling](backend-development.md)
-- [Technische beslissingen](../decisions/technical-decisions.md)
+- [Backend development](backend-development.md)
+- [Technical decisions](../decisions/technical-decisions.md)

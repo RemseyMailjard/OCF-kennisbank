@@ -14,7 +14,7 @@ def test_lists_all_markdown_files():
 
 def test_reads_a_known_file():
     content = server._read("work/current-projects.md")
-    assert "# Actieve projecten" in content
+    assert "# Active projects" in content
 
 
 def test_search_finds_okf():
@@ -57,7 +57,7 @@ def test_validation_reports_current_bank_status():
 def test_frontmatter_parser_supports_yaml_timestamps():
     metadata = server._metadata_for(server.KB_ROOT / "work" / "current-projects.md")
     assert metadata["timestamp"]
-    assert "werk" in metadata["tags"]
+    assert "work" in metadata["tags"]
 
 
 def test_project_context_bundle_includes_work_notes():

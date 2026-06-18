@@ -1,28 +1,28 @@
 ---
 type: Prompt
 title: Standup helper prompt
-description: Prompt om op basis van mijn kennisbank snel een korte standup-update te maken.
-tags: [prompt, standup, agile, communicatie]
+description: Prompt to quickly create a short standup update based on my knowledge bank.
+tags: [prompt, standup, agile, communication]
 timestamp: 2026-06-18T09:00:00Z
 ---
 
-# Doel
+# Goal
 
-Snel een heldere standup-update opstellen: wat heb ik gisteren gedaan, wat doe ik vandaag, en zijn er blockers.
+Quickly draft a clear standup update: what I did yesterday, what I'm doing today, and any blockers.
 
 # Prompt
 
 ```text
-Gebruik mijn kennisbank, vooral work/current-projects.md.
+Use my knowledge bank, especially work/current-projects.md.
 
-Maak een korte standup-update met drie onderdelen:
-1. Gisteren: wat is afgerond of vooruitgegaan.
-2. Vandaag: waar ik aan werk.
-3. Blockers: wat me tegenhoudt (of "geen").
+Create a short standup update with three parts:
+1. Yesterday: what was completed or progressed.
+2. Today: what I'm working on.
+3. Blockers: what is holding me back (or "none").
 
-Houd het kort, concreet en zakelijk. Maximaal een paar zinnen per onderdeel.
+Keep it short, concrete and businesslike. At most a few sentences per part.
 ```
 
 # Tip
 
-Vul vooraf je voortgang aan in [Huidige projecten](../work/current-projects.md), dan wordt de update accurater.
+Update your progress in [Current projects](../work/current-projects.md) beforehand, so the update is more accurate.
