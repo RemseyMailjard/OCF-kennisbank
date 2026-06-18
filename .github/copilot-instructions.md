@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This repository is a small Python MCP server for a personal Markdown knowledge bank. It uses FastMCP over Streamable HTTP and exposes selected files from `personal-knowledge-bank/` to MCP clients.
+This repository is a small Python MCP server for a developer Markdown knowledge bank. It uses FastMCP over Streamable HTTP and exposes selected files from `developer-knowledge-bank/` to MCP clients.
 
 Primary files:
 
 - `server.py`: FastMCP server, internal logic, tools, and prompt registration.
 - `test_server.py`: pytest smoke tests for the internal server logic.
-- `personal-knowledge-bank/`: Markdown knowledge source exposed by the MCP server.
+- `developer-knowledge-bank/`: Markdown knowledge source exposed by the MCP server.
 - `pyproject.toml`: Python project metadata and dependencies managed by `uv`.
 
 ## Technology Choices
@@ -54,7 +54,7 @@ http://127.0.0.1:8000/mcp
 
 The knowledge bank is a sandbox. Preserve this behavior:
 
-- All file access must stay inside `personal-knowledge-bank/`.
+- All file access must stay inside `developer-knowledge-bank/`.
 - Keep using resolved paths and `Path.is_relative_to()` or an equally strong guard for path traversal protection.
 - Do not allow reads outside the knowledge bank.
 - Only expose Markdown files unless the user explicitly changes the project scope.
@@ -90,7 +90,7 @@ Run `uv run pytest -q` before considering changes complete.
 
 ## Knowledge Bank Content Guidelines
 
-Markdown files in `personal-knowledge-bank/` may use YAML frontmatter. Keep content readable by both humans and AI tools:
+Markdown files in `developer-knowledge-bank/` may use YAML frontmatter. Keep content readable by both humans and AI tools:
 
 - Use clear headings.
 - Keep frontmatter valid when present.

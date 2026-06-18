@@ -1,7 +1,7 @@
 ---
 type: Context
 title: Werkwijze
-description: Hoe ons team werkt: agile ritme, reviews, kwaliteitsafspraken en samenwerking.
+description: "Hoe ons team werkt: agile ritme, reviews, kwaliteitsafspraken en samenwerking."
 tags: [werkwijze, agile, scrum, reviews, definition-of-done]
 timestamp: 2026-06-18T09:00:00Z
 ---

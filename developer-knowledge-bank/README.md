@@ -1,7 +1,8 @@
 ---
-okf_version: "0.1"
-title: Developer kennisbundel
+type: Guide
+title: Developer kennisbundel — README
 description: Een generieke persoonlijke kennisbundel voor een Rabobank-ontwikkelaar, voor werk, leren, beslissingen, routines en persoonlijk leven.
+tags: [okf, kennisbank, developer, handleiding]
 timestamp: 2026-06-18T09:00:00Z
 ---
 

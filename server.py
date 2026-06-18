@@ -17,7 +17,7 @@ import yaml
 
 # Root of the knowledge bank — the hard sandbox boundary.
 # Resolve once so every later check compares against an absolute, real path.
-KB_ROOT = (Path(__file__).parent / "personal-knowledge-bank").resolve()
+KB_ROOT = (Path(__file__).parent / "developer-knowledge-bank").resolve()
 HTTP_HOST = "127.0.0.1"
 HTTP_PORT = 8000
 RESERVED_METADATA_FILES = {"index.md", "log.md"}
@@ -38,7 +38,7 @@ PLACEHOLDER_PATTERNS = [
 ]
 
 mcp = FastMCP(
-    "personal-knowledge-bank",
+    "developer-knowledge-bank",
     instructions=(
         "Use the search and metadata tools before reading many files. "
         "Read tools are sandboxed to Markdown files inside the knowledge bank. "
@@ -433,26 +433,25 @@ def _validate_index_coverage() -> dict:
     return {"valid": not errors, "errors": errors, "warnings": warnings, "checked_indexes": checked}
 
 
-def _context_bundle(kind: Literal["assignment", "pricing", "client_fit"]) -> dict:
+def _context_bundle(kind: Literal["project", "decision", "growth"]) -> dict:
     bundles = {
-        "assignment": [
-            "context/ideal-opportunity.md",
-            "context/pricing-strategy.md",
-            "decisions/welke-opdrachten-aannemen.md",
-            "decisions/pricing-strategy.md",
-            "goals/ideale-werkweek.md",
+        "project": [
+            "work/current-projects.md",
+            "work/team-and-stakeholders.md",
+            "work/ways-of-working.md",
+            "work/tech-stack.md",
         ],
-        "pricing": [
-            "context/pricing-strategy.md",
-            "context/proposal-arguments.md",
-            "decisions/pricing-strategy.md",
-            "context/proposities.md",
+        "decision": [
+            "decisions/technical-decisions.md",
+            "work/ways-of-working.md",
+            "learning/secure-coding.md",
+            "templates/decision-template.md",
         ],
-        "client_fit": [
-            "context/ideal-opportunity.md",
-            "context/stakeholders.md",
-            "context/proposities.md",
-            "decisions/welke-opdrachten-aannemen.md",
+        "growth": [
+            "goals/career-growth.md",
+            "goals/skills-development.md",
+            "learning/learning-plan.md",
+            "decisions/career-decisions.md",
         ],
     }
     return {
@@ -461,13 +460,12 @@ def _context_bundle(kind: Literal["assignment", "pricing", "client_fit"]) -> dic
     }
 
 
-def _training_context(topic: str = "") -> dict:
+def _learning_context(topic: str = "") -> dict:
     files = [
-        "templates/solution-template.md",
-        "routines/projectvoorbereiding.md",
-        "context/domeinen.md",
-        "context/proposities.md",
-        "context/ideal-opportunity.md",
+        "templates/learning-note-template.md",
+        "learning/learning-plan.md",
+        "learning/backend-development.md",
+        "work/tech-stack.md",
     ]
     matching_notes = _search(topic)[:10] if topic.strip() else _search_metadata(folder="learning", limit=10)
     return {
@@ -479,15 +477,14 @@ def _training_context(topic: str = "") -> dict:
 
 def _goal_alignment_context(proposal: str = "") -> dict:
     files = [
-        "goals/groeien-naar-een-sterker-ontwikkelmerk.md",
-        "goals/ai-agents-expert-worden.md",
-        "goals/gezondheid-en-rust.md",
-        "goals/ideale-werkweek.md",
-        "context/ideal-opportunity.md",
-        "context/pricing-strategy.md",
-        "decisions/welke-opdrachten-aannemen.md",
-        "personal/energie-focus.md",
-        "routines/weekplanning.md",
+        "goals/career-growth.md",
+        "goals/skills-development.md",
+        "goals/work-life-balance.md",
+        "goals/health-and-energy.md",
+        "personal/values.md",
+        "decisions/career-decisions.md",
+        "learning/learning-plan.md",
+        "routines/weekly-review.md",
     ]
     return {
         "proposal": proposal,
@@ -535,21 +532,21 @@ def _list_recent_notes(limit: int = 10, folder: str = "") -> list[dict]:
 def _daily_briefing_context() -> dict:
     files = [
         "log.md",
-        "projects/current-project.md",
+        "work/current-projects.md",
         "goals/index.md",
-        "routines/weekplanning.md",
+        "routines/daily-routine.md",
         "decisions/index.md",
     ]
     return {"files": [{"file": file, "content": _read(file)} for file in files], "recent_notes": _list_recent_notes(5)}
 
 
-def _weekly_strategy_context() -> dict:
+def _weekly_review_context() -> dict:
     files = [
         "goals/index.md",
-        "context/index.md",
+        "work/index.md",
         "decisions/index.md",
-        "routines/vrijdag-strategiedag.md",
-        "routines/weekplanning.md",
+        "routines/weekly-review.md",
+        "routines/daily-routine.md",
         "log.md",
     ]
     return {"files": [{"file": file, "content": _read(file)} for file in files], "recent_notes": _list_recent_notes(10)}
@@ -646,19 +643,19 @@ def _create_note_from_template(
     return {"file": _relative(target), "template": _relative(template_path), "overwritten": overwrite}
 
 
-def _create_training_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
+def _create_learning_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
     target = target_path or f"learning/{_slugify(topic)}.md"
-    return _create_note_from_template("solution-template", target, topic, overwrite)
+    return _create_note_from_template("learning-note-template", target, topic, overwrite)
 
 
-def _create_client_note(client_name: str, target_path: str = "", overwrite: bool = False) -> dict:
-    target = target_path or f"context/clients/{_slugify(client_name)}.md"
-    return _create_note_from_template("context-opportunity-template", target, client_name, overwrite)
+def _create_project_note(project_name: str, target_path: str = "", overwrite: bool = False) -> dict:
+    target = target_path or f"work/{_slugify(project_name)}.md"
+    return _create_note_from_template("project-brief-template", target, project_name, overwrite)
 
 
 def _create_decision_note(decision_title: str, target_path: str = "", overwrite: bool = False) -> dict:
     target = target_path or f"decisions/{_slugify(decision_title)}.md"
-    return _create_note_from_template("concept-template", target, decision_title, overwrite)
+    return _create_note_from_template("decision-template", target, decision_title, overwrite)
 
 
 def _read_tool_annotations(title: str) -> dict:
@@ -701,7 +698,7 @@ def read_knowledge_file(relative_path: str) -> str:
 
     Args:
         relative_path: Path relative to the knowledge-bank root,
-            e.g. ``profile/professional-profile.md``.
+            e.g. ``work/current-projects.md``.
     """
     return _read(relative_path)
 
@@ -847,47 +844,47 @@ def find_related_notes(relative_path: str, limit: int = 10) -> dict:
 
 
 @mcp.tool(
-    description="Return the core notes for deciding whether a new assignment fits strategy, pricing and energy constraints.",
-    annotations=_read_tool_annotations("Prepare Assignment Decision Context"),
+    description="Return the core notes for understanding the current project: tasks, team, ways of working and tech stack.",
+    annotations=_read_tool_annotations("Prepare Project Context"),
 )
-def prepare_assignment_decision_context() -> dict:
-    """Return notes used to decide whether a new assignment fits strategy and energy."""
-    return _context_bundle("assignment")
+def prepare_project_context() -> dict:
+    """Return notes for understanding the current project, team and ways of working."""
+    return _context_bundle("project")
 
 
 @mcp.tool(
-    description="Return pricing, proposition and proposal-argument notes for reasoning about rates and offers.",
-    annotations=_read_tool_annotations("Prepare Pricing Context"),
+    description="Return technical-decision, ways-of-working, secure-coding and decision-template notes for reasoning about a technical choice.",
+    annotations=_read_tool_annotations("Prepare Technical Decision Context"),
 )
-def prepare_pricing_context() -> dict:
-    """Return notes used to reason about pricing, day rates and proposal arguments."""
-    return _context_bundle("pricing")
+def prepare_technical_decision_context() -> dict:
+    """Return notes used to reason about a technical decision."""
+    return _context_bundle("decision")
 
 
 @mcp.tool(
-    description="Return ideal-client, opdrachtgever, proposition and decision-rule notes for judging client fit.",
-    annotations=_read_tool_annotations("Prepare Client Fit Context"),
+    description="Return career-growth, skills, learning-plan and career-decision notes for reflecting on professional growth.",
+    annotations=_read_tool_annotations("Prepare Growth Context"),
 )
-def prepare_client_fit_context() -> dict:
-    """Return notes used to judge whether a client or opportunity is a good fit."""
-    return _context_bundle("client_fit")
+def prepare_growth_context() -> dict:
+    """Return notes used to reflect on career growth and skills development."""
+    return _context_bundle("growth")
 
 
 @mcp.tool(
-    description="Return the solution template, preparation checklist, context and matching topic notes for designing a solution.",
-    annotations=_read_tool_annotations("Prepare Training Context"),
+    description="Return the learning-note template, learning plan, backend notes, tech stack and matching topic notes for studying a topic.",
+    annotations=_read_tool_annotations("Prepare Learning Context"),
 )
-def prepare_training_context(topic: str = "") -> dict:
-    """Return template, preparation, context and matching notes for designing a solution."""
-    return _training_context(topic)
+def prepare_learning_context(topic: str = "") -> dict:
+    """Return template, plan, tech stack and matching notes for studying a topic."""
+    return _learning_context(topic)
 
 
 @mcp.tool(
-    description="Return goals, decisions, ideal-client, energy and routine notes for checking whether a proposal fits the OKF strategy.",
+    description="Return goals, values, decisions, learning and routine notes for checking whether a choice fits your goals.",
     annotations=_read_tool_annotations("Prepare Goal Alignment Context"),
 )
 def prepare_goal_alignment_context(proposal: str = "") -> dict:
-    """Return goals, decisions, energy and routine notes for checking strategic fit."""
+    """Return goals, values, decisions and routine notes for checking goal fit."""
     return _goal_alignment_context(proposal)
 
 
@@ -919,12 +916,12 @@ def get_daily_briefing_context() -> dict:
 
 
 @mcp.tool(
-    description="Return goals, business, decisions, strategy-day routine, weekplanning, log and recent notes for weekly strategy review.",
-    annotations=_read_tool_annotations("Get Weekly Strategy Context"),
+    description="Return goals, work, decisions, weekly review routine, daily routine, log and recent notes for a weekly review.",
+    annotations=_read_tool_annotations("Get Weekly Review Context"),
 )
-def get_weekly_strategy_context() -> dict:
-    """Return goals, business, decisions, routines, log and recent notes for strategy review."""
-    return _weekly_strategy_context()
+def get_weekly_review_context() -> dict:
+    """Return goals, work, decisions, routines, log and recent notes for a weekly review."""
+    return _weekly_review_context()
 
 
 @mcp.tool(
@@ -969,7 +966,7 @@ def create_note_from_template(
     """Create a Markdown note inside the knowledge bank from an existing template.
 
     Args:
-        template: Template path or name, such as templates/solution-template.md or solution-template.
+        template: Template path or name, such as templates/decision-template.md or decision-template.
         target_path: New Markdown path inside the knowledge bank.
         title: Replacement title for the first top-level Markdown heading.
         overwrite: Whether to replace an existing target note.
@@ -996,29 +993,29 @@ def preview_note_from_template(template: str, title: str, target_path: str = "")
 
 
 @mcp.tool(
-    description="Create a solution design note from the solution template, using a safe learning/{slug}.md path by default.",
-    annotations=_write_tool_annotations("Create Training Note"),
+    description="Create a learning note from the learning-note template, using a safe learning/{slug}.md path by default.",
+    annotations=_write_tool_annotations("Create Learning Note"),
 )
-def create_training_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
-    """Create a solution design note from the solution template."""
-    return _create_training_note(topic, target_path, overwrite)
+def create_learning_note(topic: str, target_path: str = "", overwrite: bool = False) -> dict:
+    """Create a learning note from the learning-note template."""
+    return _create_learning_note(topic, target_path, overwrite)
 
 
 @mcp.tool(
-    description="Create a client context note from the context opportunity template, using context/clients/{slug}.md by default.",
-    annotations=_write_tool_annotations("Create Client Note"),
+    description="Create a project brief note from the project brief template, using work/{slug}.md by default.",
+    annotations=_write_tool_annotations("Create Project Note"),
 )
-def create_client_note(client_name: str, target_path: str = "", overwrite: bool = False) -> dict:
-    """Create a context note from the context opportunity template."""
-    return _create_client_note(client_name, target_path, overwrite)
+def create_project_note(project_name: str, target_path: str = "", overwrite: bool = False) -> dict:
+    """Create a project brief note from the project brief template."""
+    return _create_project_note(project_name, target_path, overwrite)
 
 
 @mcp.tool(
-    description="Create a decision note from the concept template, using decisions/{slug}.md by default.",
+    description="Create a decision note from the decision template, using decisions/{slug}.md by default.",
     annotations=_write_tool_annotations("Create Decision Note"),
 )
 def create_decision_note(decision_title: str, target_path: str = "", overwrite: bool = False) -> dict:
-    """Create a decision note from the general OKF concept template."""
+    """Create a decision note from the decision template."""
     return _create_decision_note(decision_title, target_path, overwrite)
 
 
@@ -1035,53 +1032,53 @@ def knowledge_file_resource(path: str) -> str:
 
 
 @mcp.prompt
-def refinement_summary() -> str:
-    """Bonus: surface the saved summary prompt as a reusable MCP prompt.
+def standup_update() -> str:
+    """Bonus: surface the saved standup prompt as a reusable MCP prompt.
 
     Demonstrates the third MCP building block — a Prompt — sourced directly
     from the knowledge bank so there is a single source of truth.
     """
-    return _read("prompts/meeting-summary-prompt.md")
+    return _read("agents/standup-helper-prompt.md")
 
 
 @mcp.prompt
 def weekly_review() -> str:
     """Start a weekly review using goals, routines and the weekly review template."""
     return (
-        "Use my knowledge bank to guide a weekly review. Read the weekly review template, "
-        "current goals, ideal workweek, routines/weekplanning.md and log.md. Help me reflect "
-        "on results, energy, decisions, opportunities and focus for next week."
+        "Use my knowledge bank to guide a weekly review. Read templates/weekly-review-template.md, "
+        "current goals, routines/weekly-review.md and log.md. Help me reflect on results, energy, "
+        "decisions, learning and focus for next week."
     )
 
 
 @mcp.prompt
-def training_design(topic: str = "") -> str:
-    """Design a solution using the solution template and learning/context notes."""
+def learning_design(topic: str = "") -> str:
+    """Plan a learning note using the learning-note template and learning notes."""
     topic_line = f" for {topic}" if topic else ""
     return (
-        f"Design a practical solution{topic_line}. Use templates/solution-template.md, "
-        "context/domeinen.md, context/proposities.md and relevant learning notes. "
-        "Return a clear outline with audience, goals, modules, demos, exercises and evaluation."
+        f"Plan a focused learning note{topic_line}. Use templates/learning-note-template.md, "
+        "learning/learning-plan.md and relevant learning notes. Return a clear summary with what "
+        "to learn, why it matters, an example and follow-up questions."
     )
 
 
 @mcp.prompt
-def client_proposal(client_context: str = "") -> str:
-    """Draft a client proposal using business, pricing and proposition notes."""
+def one_on_one_prep(context: str = "") -> str:
+    """Prepare a 1-on-1 with your lead using career and team notes."""
     return (
-        "Draft a warm, professional client proposal using context/pricing-strategy.md, "
-        "context/proposities.md, context/proposal-arguments.md and relevant templates. "
-        f"Client context: {client_context}"
+        "Help me prepare a 1-on-1 with my lead using templates/one-on-one-template.md, "
+        "goals/career-growth.md and work/team-and-stakeholders.md. "
+        f"Context: {context}"
     )
 
 
 @mcp.prompt
-def assignment_intake(request: str = "") -> str:
-    """Assess a new assignment request against strategy, pricing and client-fit notes."""
+def project_kickoff(request: str = "") -> str:
+    """Prepare for a new project using project, technical-decision and growth context."""
     return (
-        "Assess this assignment request using prepare_assignment_decision_context, "
-        "prepare_pricing_context and prepare_client_fit_context. Give advice on fit, risks, scope, "
-        f"pricing and next questions. Request: {request}"
+        "Help me prepare for a new project using prepare_project_context, "
+        "prepare_technical_decision_context and prepare_growth_context. Give advice on tasks, "
+        f"risks, dependencies and next questions. Request: {request}"
     )
 
 
